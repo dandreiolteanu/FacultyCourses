@@ -14,12 +14,36 @@ Repository for projects that I've worked on at UBB Computer Science, Cluj-Napoca
 * [ComputerNetworks](https://github.com/dandreiolteanu/FacultyCourses/tree/master/OperatingSystems) - ComputerNetworks files + tests
 * [Database](https://github.com/dandreiolteanu/FacultyCourses/tree/master/DSA) - SQL Databse files
 
+### Installing
+
+```
+Press Clone or Download
+```
+
+If you have the GitHub desktop version
+
+```
+Press Open in Desktop
+```
+
+Else
+
+```
+Press Download ZIP
+```
+
+Or open terminal and type
+
+```
+git clone https://github.com/dandreiolteanu/FacultyCourses.git
+```
+
 
 ## Author
 
 * **Andrei Olteanu** - *Website link* - [olteanu.io](http://olteanu.io)
 
 See also the list of my other  [github projects](https://github.com/dandreiolteanu)
-And my [LinkedIn](https://www.linkedin.com/in/andreiolteanu/)
+and my [LinkedIn](https://www.linkedin.com/in/andreiolteanu/)
                                
 
