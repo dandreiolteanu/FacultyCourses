@@ -2,7 +2,8 @@
 Repository for projects that I've worked on at UBB Computer Science, Cluj-Napoca.
 
 ## 1st Semester
-
+* [ASC](https://github.com/dandreiolteanu/FacultyCourses/tree/master/OOP) - ASC files
+* [FP](https://github.com/dandreiolteanu/FacultyCourses/tree/master/OOP) - FP files
 ## 2nd Semester
 * [OOP](https://github.com/dandreiolteanu/FacultyCourses/tree/master/OOP) - OOP files
 * [OS](https://github.com/dandreiolteanu/FacultyCourses/tree/master/OperatingSystems) - OS files
