@@ -44,7 +44,7 @@ git clone https://github.com/dandreiolteanu/FacultyCourses.git
 
 * **Andrei Olteanu** - *Website link* - [olteanu.io](http://olteanu.io)
 
-See also the list of my other  [github projects](https://github.com/dandreiolteanu)
+See also the list of my other  [GitHub projects](https://github.com/dandreiolteanu)
 and my [LinkedIn](https://www.linkedin.com/in/andreiolteanu/)
                                
 
