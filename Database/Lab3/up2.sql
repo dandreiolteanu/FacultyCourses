@@ -1,0 +1,7 @@
+CREATE PROCEDURE up2
+AS
+BEGIN
+	ALTER TABLE RESTAURANT
+	ADD rating INT
+	PRINT 'Added the column rating in RESTAURANT table'
+END

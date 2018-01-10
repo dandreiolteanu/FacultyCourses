@@ -1,0 +1,7 @@
+CREATE PROCEDURE down1
+AS
+BEGIN
+	ALTER TABLE EMPLOYEE
+	ALTER COLUMN hoursWorked INT NOT NULL
+	PRINT 'Changed the column type from BIGINT to INT for EMPLOYEE in hoursWorked'
+END
