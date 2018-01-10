@@ -11,9 +11,9 @@ Repository for projects that I've worked on at UBB Computer Science, Cluj-Napoca
 
 
 ## 3rd Semester
-* [MAP](https://github.com/dandreiolteanu/FacultyCourses/tree/master/OOP) - MAP files java
+* [MAP](https://github.com/dandreiolteanu/FacultyCourses/tree/master/MAP) - MAP files java
 * [Computer Networks](https://github.com/dandreiolteanu/FacultyCourses/tree/master/Computer%20Networks) - ComputerNetworks files + tests
-* [Database](https://github.com/dandreiolteanu/FacultyCourses/tree/master/DSA) - SQL Databse files
+* [Database](https://github.com/dandreiolteanu/FacultyCourses/tree/master/Database) - SQL Databse files
 
 ### Installing
 
