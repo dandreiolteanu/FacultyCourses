@@ -1,0 +1,11 @@
+/Users/olteanuandrei/Desktop/UBB Computer Science/UBB an 2 sem 1/C#/LAB7-MAP/LAB7-MAP/bin/Debug/netcoreapp2.0/LAB7-MAP.deps.json
+/Users/olteanuandrei/Desktop/UBB Computer Science/UBB an 2 sem 1/C#/LAB7-MAP/LAB7-MAP/bin/Debug/netcoreapp2.0/LAB7-MAP.runtimeconfig.json
+/Users/olteanuandrei/Desktop/UBB Computer Science/UBB an 2 sem 1/C#/LAB7-MAP/LAB7-MAP/bin/Debug/netcoreapp2.0/LAB7-MAP.runtimeconfig.dev.json
+/Users/olteanuandrei/Desktop/UBB Computer Science/UBB an 2 sem 1/C#/LAB7-MAP/LAB7-MAP/bin/Debug/netcoreapp2.0/LAB7-MAP.dll
+/Users/olteanuandrei/Desktop/UBB Computer Science/UBB an 2 sem 1/C#/LAB7-MAP/LAB7-MAP/bin/Debug/netcoreapp2.0/LAB7-MAP.pdb
+/Users/olteanuandrei/Desktop/UBB Computer Science/UBB an 2 sem 1/C#/LAB7-MAP/LAB7-MAP/obj/Debug/netcoreapp2.0/LAB7-MAP.csprojResolveAssemblyReference.cache
+/Users/olteanuandrei/Desktop/UBB Computer Science/UBB an 2 sem 1/C#/LAB7-MAP/LAB7-MAP/obj/Debug/netcoreapp2.0/LAB7-MAP.csproj.CoreCompileInputs.cache
+/Users/olteanuandrei/Desktop/UBB Computer Science/UBB an 2 sem 1/C#/LAB7-MAP/LAB7-MAP/obj/Debug/netcoreapp2.0/LAB7-MAP.AssemblyInfoInputs.cache
+/Users/olteanuandrei/Desktop/UBB Computer Science/UBB an 2 sem 1/C#/LAB7-MAP/LAB7-MAP/obj/Debug/netcoreapp2.0/LAB7-MAP.AssemblyInfo.cs
+/Users/olteanuandrei/Desktop/UBB Computer Science/UBB an 2 sem 1/C#/LAB7-MAP/LAB7-MAP/obj/Debug/netcoreapp2.0/LAB7-MAP.dll
+/Users/olteanuandrei/Desktop/UBB Computer Science/UBB an 2 sem 1/C#/LAB7-MAP/LAB7-MAP/obj/Debug/netcoreapp2.0/LAB7-MAP.pdb

@@ -1,0 +1,3078 @@
+
+--------------------------------------------------------
+Andrei Olteanu
+Sat Nov 25 18:28:42 EET 2017
+--------------------------------------------------------
+
+
+ExecStack:
+v = 10newH(v,20);newH(a,22);wH(a, 30);
+a rH(a);a = 0
+
+SymbolTable:
+
+OutputList:
+
+Heap:
+----------------------------------------------------------------------------
+ExecStack:
+a rH(a);a = 0
+v = 10newH(v,20);
+newH(a,22);wH(a, 30);
+
+SymbolTable:
+
+OutputList:
+
+Heap:
+----------------------------------------------------------------------------
+ExecStack:
+v = 10newH(v,20);
+newH(a,22);wH(a, 30);
+a rH(a);
+a = 0
+
+SymbolTable:
+
+OutputList:
+
+Heap:
+----------------------------------------------------------------------------
+ExecStack:
+newH(a,22);wH(a, 30);
+a rH(a);
+a = 0
+v = 10
+newH(v,20);
+
+SymbolTable:
+
+OutputList:
+
+Heap:
+----------------------------------------------------------------------------
+ExecStack:
+a rH(a);
+a = 0
+v = 10
+newH(v,20);
+newH(a,22);
+wH(a, 30);
+
+SymbolTable:
+
+OutputList:
+
+Heap:
+----------------------------------------------------------------------------
+ExecStack:
+a = 0
+v = 10
+newH(v,20);
+newH(a,22);
+wH(a, 30);
+a 
+rH(a);
+
+SymbolTable:
+
+OutputList:
+
+Heap:
+----------------------------------------------------------------------------
+ExecStack:
+v = 10
+newH(v,20);
+newH(a,22);
+wH(a, 30);
+a 
+rH(a);
+
+SymbolTable:
+a-->0
+
+OutputList:
+
+Heap:
+----------------------------------------------------------------------------
+ExecStack:
+newH(v,20);
+newH(a,22);
+wH(a, 30);
+a 
+rH(a);
+
+SymbolTable:
+a-->0
+v-->10
+
+OutputList:
+
+Heap:
+----------------------------------------------------------------------------
+ExecStack:
+newH(a,22);
+wH(a, 30);
+a 
+rH(a);
+
+SymbolTable:
+a-->0
+v-->1
+
+OutputList:
+
+Heap:
+1-->20
+----------------------------------------------------------------------------
+ExecStack:
+wH(a, 30);
+a 
+rH(a);
+
+SymbolTable:
+a-->2
+v-->1
+
+OutputList:
+
+Heap:
+1-->20
+2-->22
+----------------------------------------------------------------------------
+ExecStack:
+a 
+rH(a);
+
+SymbolTable:
+a-->2
+v-->1
+
+OutputList:
+
+Heap:
+1-->20
+2-->30
+----------------------------------------------------------------------------
+ExecStack:
+rH(a);
+
+SymbolTable:
+a-->2
+v-->1
+
+OutputList:
+2
+
+Heap:
+1-->20
+2-->30
+----------------------------------------------------------------------------
+ExecStack:
+
+SymbolTable:
+a-->2
+v-->1
+
+OutputList:
+2
+30
+
+Heap:
+1-->20
+2-->30
+----------------------------------------------------------------------------
+--------------------------------------------------------
+Andrei Olteanu
+Mon Nov 27 16:14:28 EET 2017
+--------------------------------------------------------
+
+
+ExecStack:
+v = 10newH(v,20);newH(a,22);wH(a, 30);
+a rH(a);a = 0
+
+SymbolTable:
+
+OutputList:
+
+Heap:
+----------------------------------------------------------------------------
+ExecStack:
+a rH(a);a = 0
+v = 10newH(v,20);
+newH(a,22);wH(a, 30);
+
+SymbolTable:
+
+OutputList:
+
+Heap:
+----------------------------------------------------------------------------
+ExecStack:
+v = 10newH(v,20);
+newH(a,22);wH(a, 30);
+a rH(a);
+a = 0
+
+SymbolTable:
+
+OutputList:
+
+Heap:
+----------------------------------------------------------------------------
+ExecStack:
+newH(a,22);wH(a, 30);
+a rH(a);
+a = 0
+v = 10
+newH(v,20);
+
+SymbolTable:
+
+OutputList:
+
+Heap:
+----------------------------------------------------------------------------
+ExecStack:
+a rH(a);
+a = 0
+v = 10
+newH(v,20);
+newH(a,22);
+wH(a, 30);
+
+SymbolTable:
+
+OutputList:
+
+Heap:
+----------------------------------------------------------------------------
+ExecStack:
+a = 0
+v = 10
+newH(v,20);
+newH(a,22);
+wH(a, 30);
+a 
+rH(a);
+
+SymbolTable:
+
+OutputList:
+
+Heap:
+----------------------------------------------------------------------------
+ExecStack:
+v = 10
+newH(v,20);
+newH(a,22);
+wH(a, 30);
+a 
+rH(a);
+
+SymbolTable:
+a-->0
+
+OutputList:
+
+Heap:
+----------------------------------------------------------------------------
+ExecStack:
+newH(v,20);
+newH(a,22);
+wH(a, 30);
+a 
+rH(a);
+
+SymbolTable:
+a-->0
+v-->10
+
+OutputList:
+
+Heap:
+----------------------------------------------------------------------------
+ExecStack:
+newH(a,22);
+wH(a, 30);
+a 
+rH(a);
+
+SymbolTable:
+a-->0
+v-->1
+
+OutputList:
+
+Heap:
+1-->20
+----------------------------------------------------------------------------
+ExecStack:
+wH(a, 30);
+a 
+rH(a);
+
+SymbolTable:
+a-->2
+v-->1
+
+OutputList:
+
+Heap:
+1-->20
+2-->22
+----------------------------------------------------------------------------
+ExecStack:
+a 
+rH(a);
+
+SymbolTable:
+a-->2
+v-->1
+
+OutputList:
+
+Heap:
+1-->20
+2-->30
+----------------------------------------------------------------------------
+ExecStack:
+rH(a);
+
+SymbolTable:
+a-->2
+v-->1
+
+OutputList:
+2
+
+Heap:
+1-->20
+2-->30
+----------------------------------------------------------------------------
+ExecStack:
+
+SymbolTable:
+a-->2
+v-->1
+
+OutputList:
+2
+30
+
+Heap:
+1-->20
+2-->30
+----------------------------------------------------------------------------
+--------------------------------------------------------
+Andrei Olteanu
+Mon Nov 27 16:18:11 EET 2017
+--------------------------------------------------------
+
+
+ExecStack:
+v = 10newH(v,20);newH(a,22);wH(a, 30);
+Print(a )Print(rH(a);)a = 0
+
+SymbolTable:
+
+OutputList:
+
+Heap:
+----------------------------------------------------------------------------
+ExecStack:
+Print(a )Print(rH(a);)a = 0
+v = 10newH(v,20);
+newH(a,22);wH(a, 30);
+
+SymbolTable:
+
+OutputList:
+
+Heap:
+----------------------------------------------------------------------------
+ExecStack:
+v = 10newH(v,20);
+newH(a,22);wH(a, 30);
+Print(a )Print(rH(a);)
+a = 0
+
+SymbolTable:
+
+OutputList:
+
+Heap:
+----------------------------------------------------------------------------
+ExecStack:
+newH(a,22);wH(a, 30);
+Print(a )Print(rH(a);)
+a = 0
+v = 10
+newH(v,20);
+
+SymbolTable:
+
+OutputList:
+
+Heap:
+----------------------------------------------------------------------------
+ExecStack:
+Print(a )Print(rH(a);)
+a = 0
+v = 10
+newH(v,20);
+newH(a,22);
+wH(a, 30);
+
+SymbolTable:
+
+OutputList:
+
+Heap:
+----------------------------------------------------------------------------
+ExecStack:
+a = 0
+v = 10
+newH(v,20);
+newH(a,22);
+wH(a, 30);
+Print(a )
+Print(rH(a);)
+
+SymbolTable:
+
+OutputList:
+
+Heap:
+----------------------------------------------------------------------------
+ExecStack:
+v = 10
+newH(v,20);
+newH(a,22);
+wH(a, 30);
+Print(a )
+Print(rH(a);)
+
+SymbolTable:
+a-->0
+
+OutputList:
+
+Heap:
+----------------------------------------------------------------------------
+ExecStack:
+newH(v,20);
+newH(a,22);
+wH(a, 30);
+Print(a )
+Print(rH(a);)
+
+SymbolTable:
+a-->0
+v-->10
+
+OutputList:
+
+Heap:
+----------------------------------------------------------------------------
+ExecStack:
+newH(a,22);
+wH(a, 30);
+Print(a )
+Print(rH(a);)
+
+SymbolTable:
+a-->0
+v-->1
+
+OutputList:
+
+Heap:
+1-->20
+----------------------------------------------------------------------------
+ExecStack:
+wH(a, 30);
+Print(a )
+Print(rH(a);)
+
+SymbolTable:
+a-->2
+v-->1
+
+OutputList:
+
+Heap:
+1-->20
+2-->22
+----------------------------------------------------------------------------
+ExecStack:
+Print(a )
+Print(rH(a);)
+
+SymbolTable:
+a-->2
+v-->1
+
+OutputList:
+
+Heap:
+1-->20
+2-->30
+----------------------------------------------------------------------------
+ExecStack:
+Print(rH(a);)
+
+SymbolTable:
+a-->2
+v-->1
+
+OutputList:
+2
+
+Heap:
+1-->20
+2-->30
+----------------------------------------------------------------------------
+ExecStack:
+
+SymbolTable:
+a-->2
+v-->1
+
+OutputList:
+2
+30
+
+Heap:
+1-->20
+2-->30
+----------------------------------------------------------------------------
+--------------------------------------------------------
+Andrei Olteanu
+Mon Nov 27 16:49:41 EET 2017
+--------------------------------------------------------
+
+
+ExecStack:
+v = 10newH(v,20);newH(a,22);wH(a, 30);
+Print(a )Print(rH(a);)a = 10
+
+SymbolTable:
+
+OutputList:
+
+Heap:
+----------------------------------------------------------------------------
+ExecStack:
+Print(a )Print(rH(a);)a = 10
+v = 10newH(v,20);
+newH(a,22);wH(a, 30);
+
+SymbolTable:
+
+OutputList:
+
+Heap:
+----------------------------------------------------------------------------
+ExecStack:
+v = 10newH(v,20);
+newH(a,22);wH(a, 30);
+Print(a )Print(rH(a);)
+a = 10
+
+SymbolTable:
+
+OutputList:
+
+Heap:
+----------------------------------------------------------------------------
+ExecStack:
+newH(a,22);wH(a, 30);
+Print(a )Print(rH(a);)
+a = 10
+v = 10
+newH(v,20);
+
+SymbolTable:
+
+OutputList:
+
+Heap:
+----------------------------------------------------------------------------
+ExecStack:
+Print(a )Print(rH(a);)
+a = 10
+v = 10
+newH(v,20);
+newH(a,22);
+wH(a, 30);
+
+SymbolTable:
+
+OutputList:
+
+Heap:
+----------------------------------------------------------------------------
+ExecStack:
+a = 10
+v = 10
+newH(v,20);
+newH(a,22);
+wH(a, 30);
+Print(a )
+Print(rH(a);)
+
+SymbolTable:
+
+OutputList:
+
+Heap:
+----------------------------------------------------------------------------
+ExecStack:
+v = 10
+newH(v,20);
+newH(a,22);
+wH(a, 30);
+Print(a )
+Print(rH(a);)
+
+SymbolTable:
+a-->10
+
+OutputList:
+
+Heap:
+----------------------------------------------------------------------------
+ExecStack:
+newH(v,20);
+newH(a,22);
+wH(a, 30);
+Print(a )
+Print(rH(a);)
+
+SymbolTable:
+a-->10
+v-->10
+
+OutputList:
+
+Heap:
+----------------------------------------------------------------------------
+ExecStack:
+newH(a,22);
+wH(a, 30);
+Print(a )
+Print(rH(a);)
+
+SymbolTable:
+a-->10
+v-->1
+
+OutputList:
+
+Heap:
+1-->20
+----------------------------------------------------------------------------
+ExecStack:
+wH(a, 30);
+Print(a )
+Print(rH(a);)
+
+SymbolTable:
+a-->2
+v-->1
+
+OutputList:
+
+Heap:
+1-->20
+2-->22
+----------------------------------------------------------------------------
+ExecStack:
+Print(a )
+Print(rH(a);)
+
+SymbolTable:
+a-->2
+v-->1
+
+OutputList:
+
+Heap:
+1-->20
+2-->30
+----------------------------------------------------------------------------
+ExecStack:
+Print(rH(a);)
+
+SymbolTable:
+a-->2
+v-->1
+
+OutputList:
+2
+
+Heap:
+1-->20
+2-->30
+----------------------------------------------------------------------------
+ExecStack:
+
+SymbolTable:
+a-->2
+v-->1
+
+OutputList:
+2
+30
+
+Heap:
+1-->20
+2-->30
+----------------------------------------------------------------------------
+--------------------------------------------------------
+Andrei Olteanu
+Mon Nov 27 16:54:58 EET 2017
+--------------------------------------------------------
+
+
+ExecStack:
+v = 0newH(v,20);newH(a,22);wH(a, 30);
+Print(a )Print(rH(a);)a = 0
+
+SymbolTable:
+
+OutputList:
+
+Heap:
+----------------------------------------------------------------------------
+ExecStack:
+Print(a )Print(rH(a);)a = 0
+v = 0newH(v,20);
+newH(a,22);wH(a, 30);
+
+SymbolTable:
+
+OutputList:
+
+Heap:
+----------------------------------------------------------------------------
+ExecStack:
+v = 0newH(v,20);
+newH(a,22);wH(a, 30);
+Print(a )Print(rH(a);)
+a = 0
+
+SymbolTable:
+
+OutputList:
+
+Heap:
+----------------------------------------------------------------------------
+ExecStack:
+newH(a,22);wH(a, 30);
+Print(a )Print(rH(a);)
+a = 0
+v = 0
+newH(v,20);
+
+SymbolTable:
+
+OutputList:
+
+Heap:
+----------------------------------------------------------------------------
+ExecStack:
+Print(a )Print(rH(a);)
+a = 0
+v = 0
+newH(v,20);
+newH(a,22);
+wH(a, 30);
+
+SymbolTable:
+
+OutputList:
+
+Heap:
+----------------------------------------------------------------------------
+ExecStack:
+a = 0
+v = 0
+newH(v,20);
+newH(a,22);
+wH(a, 30);
+Print(a )
+Print(rH(a);)
+
+SymbolTable:
+
+OutputList:
+
+Heap:
+----------------------------------------------------------------------------
+ExecStack:
+v = 0
+newH(v,20);
+newH(a,22);
+wH(a, 30);
+Print(a )
+Print(rH(a);)
+
+SymbolTable:
+a-->0
+
+OutputList:
+
+Heap:
+----------------------------------------------------------------------------
+ExecStack:
+newH(v,20);
+newH(a,22);
+wH(a, 30);
+Print(a )
+Print(rH(a);)
+
+SymbolTable:
+a-->0
+v-->0
+
+OutputList:
+
+Heap:
+----------------------------------------------------------------------------
+ExecStack:
+newH(a,22);
+wH(a, 30);
+Print(a )
+Print(rH(a);)
+
+SymbolTable:
+a-->0
+v-->1
+
+OutputList:
+
+Heap:
+1-->20
+----------------------------------------------------------------------------
+ExecStack:
+wH(a, 30);
+Print(a )
+Print(rH(a);)
+
+SymbolTable:
+a-->2
+v-->1
+
+OutputList:
+
+Heap:
+1-->20
+2-->22
+----------------------------------------------------------------------------
+ExecStack:
+Print(a )
+Print(rH(a);)
+
+SymbolTable:
+a-->2
+v-->1
+
+OutputList:
+
+Heap:
+1-->20
+2-->30
+----------------------------------------------------------------------------
+ExecStack:
+Print(rH(a);)
+
+SymbolTable:
+a-->2
+v-->1
+
+OutputList:
+2
+
+Heap:
+1-->20
+2-->30
+----------------------------------------------------------------------------
+ExecStack:
+
+SymbolTable:
+a-->2
+v-->1
+
+OutputList:
+2
+30
+
+Heap:
+1-->20
+2-->30
+----------------------------------------------------------------------------
+--------------------------------------------------------
+Andrei Olteanu
+Mon Nov 27 16:55:42 EET 2017
+--------------------------------------------------------
+
+
+ExecStack:
+v = 10newH(v,20);newH(a,22);wH(a, 30);
+Print(a )Print(rH(a);)a = 0
+
+SymbolTable:
+
+OutputList:
+
+Heap:
+----------------------------------------------------------------------------
+ExecStack:
+Print(a )Print(rH(a);)a = 0
+v = 10newH(v,20);
+newH(a,22);wH(a, 30);
+
+SymbolTable:
+
+OutputList:
+
+Heap:
+----------------------------------------------------------------------------
+ExecStack:
+v = 10newH(v,20);
+newH(a,22);wH(a, 30);
+Print(a )Print(rH(a);)
+a = 0
+
+SymbolTable:
+
+OutputList:
+
+Heap:
+----------------------------------------------------------------------------
+ExecStack:
+newH(a,22);wH(a, 30);
+Print(a )Print(rH(a);)
+a = 0
+v = 10
+newH(v,20);
+
+SymbolTable:
+
+OutputList:
+
+Heap:
+----------------------------------------------------------------------------
+ExecStack:
+Print(a )Print(rH(a);)
+a = 0
+v = 10
+newH(v,20);
+newH(a,22);
+wH(a, 30);
+
+SymbolTable:
+
+OutputList:
+
+Heap:
+----------------------------------------------------------------------------
+ExecStack:
+a = 0
+v = 10
+newH(v,20);
+newH(a,22);
+wH(a, 30);
+Print(a )
+Print(rH(a);)
+
+SymbolTable:
+
+OutputList:
+
+Heap:
+----------------------------------------------------------------------------
+ExecStack:
+v = 10
+newH(v,20);
+newH(a,22);
+wH(a, 30);
+Print(a )
+Print(rH(a);)
+
+SymbolTable:
+a-->0
+
+OutputList:
+
+Heap:
+----------------------------------------------------------------------------
+ExecStack:
+newH(v,20);
+newH(a,22);
+wH(a, 30);
+Print(a )
+Print(rH(a);)
+
+SymbolTable:
+a-->0
+v-->10
+
+OutputList:
+
+Heap:
+----------------------------------------------------------------------------
+ExecStack:
+newH(a,22);
+wH(a, 30);
+Print(a )
+Print(rH(a);)
+
+SymbolTable:
+a-->0
+v-->1
+
+OutputList:
+
+Heap:
+1-->20
+----------------------------------------------------------------------------
+ExecStack:
+wH(a, 30);
+Print(a )
+Print(rH(a);)
+
+SymbolTable:
+a-->2
+v-->1
+
+OutputList:
+
+Heap:
+1-->20
+2-->22
+----------------------------------------------------------------------------
+ExecStack:
+Print(a )
+Print(rH(a);)
+
+SymbolTable:
+a-->2
+v-->1
+
+OutputList:
+
+Heap:
+1-->20
+2-->30
+----------------------------------------------------------------------------
+ExecStack:
+Print(rH(a);)
+
+SymbolTable:
+a-->2
+v-->1
+
+OutputList:
+2
+
+Heap:
+1-->20
+2-->30
+----------------------------------------------------------------------------
+ExecStack:
+
+SymbolTable:
+a-->2
+v-->1
+
+OutputList:
+2
+30
+
+Heap:
+1-->20
+2-->30
+----------------------------------------------------------------------------
+--------------------------------------------------------
+Andrei Olteanu
+Mon Nov 27 17:06:23 EET 2017
+--------------------------------------------------------
+
+
+ExecStack:
+newH(a,22);wH(a, 30);Print(a )Print(rH(a);)
+a = 0v = 10newH(v,20);
+
+SymbolTable:
+
+OutputList:
+
+Heap:
+----------------------------------------------------------------------------
+ExecStack:
+a = 0v = 10newH(v,20);
+newH(a,22);wH(a, 30);
+Print(a )Print(rH(a);)
+
+SymbolTable:
+
+OutputList:
+
+Heap:
+----------------------------------------------------------------------------
+ExecStack:
+newH(a,22);wH(a, 30);
+Print(a )Print(rH(a);)
+a = 0
+v = 10newH(v,20);
+
+SymbolTable:
+
+OutputList:
+
+Heap:
+----------------------------------------------------------------------------
+ExecStack:
+Print(a )Print(rH(a);)
+a = 0
+v = 10newH(v,20);
+newH(a,22);
+wH(a, 30);
+
+SymbolTable:
+
+OutputList:
+
+Heap:
+----------------------------------------------------------------------------
+ExecStack:
+a = 0
+v = 10newH(v,20);
+newH(a,22);
+wH(a, 30);
+Print(a )
+Print(rH(a);)
+
+SymbolTable:
+
+OutputList:
+
+Heap:
+----------------------------------------------------------------------------
+ExecStack:
+v = 10newH(v,20);
+newH(a,22);
+wH(a, 30);
+Print(a )
+Print(rH(a);)
+
+SymbolTable:
+a-->0
+
+OutputList:
+
+Heap:
+----------------------------------------------------------------------------
+ExecStack:
+newH(a,22);
+wH(a, 30);
+Print(a )
+Print(rH(a);)
+v = 10
+newH(v,20);
+
+SymbolTable:
+a-->0
+
+OutputList:
+
+Heap:
+----------------------------------------------------------------------------
+ExecStack:
+wH(a, 30);
+Print(a )
+Print(rH(a);)
+v = 10
+newH(v,20);
+
+SymbolTable:
+a-->1
+
+OutputList:
+
+Heap:
+1-->22
+----------------------------------------------------------------------------
+ExecStack:
+Print(a )
+Print(rH(a);)
+v = 10
+newH(v,20);
+
+SymbolTable:
+a-->1
+
+OutputList:
+
+Heap:
+1-->30
+----------------------------------------------------------------------------
+ExecStack:
+Print(rH(a);)
+v = 10
+newH(v,20);
+
+SymbolTable:
+a-->1
+
+OutputList:
+1
+
+Heap:
+1-->30
+----------------------------------------------------------------------------
+ExecStack:
+v = 10
+newH(v,20);
+
+SymbolTable:
+a-->1
+
+OutputList:
+1
+30
+
+Heap:
+1-->30
+----------------------------------------------------------------------------
+ExecStack:
+newH(v,20);
+
+SymbolTable:
+a-->1
+v-->10
+
+OutputList:
+1
+30
+
+Heap:
+1-->30
+----------------------------------------------------------------------------
+ExecStack:
+
+SymbolTable:
+a-->1
+v-->2
+
+OutputList:
+1
+30
+
+Heap:
+1-->30
+2-->20
+----------------------------------------------------------------------------
+--------------------------------------------------------
+Andrei Olteanu
+Mon Nov 27 17:10:31 EET 2017
+--------------------------------------------------------
+
+
+ExecStack:
+v = 10newH(v,20);newH(a,22);wH(a, 30);Print(a )Print(rH(a);)
+a = 0
+
+SymbolTable:
+
+OutputList:
+
+Heap:
+----------------------------------------------------------------------------
+ExecStack:
+a = 0
+v = 10newH(v,20);newH(a,22);wH(a, 30);
+Print(a )Print(rH(a);)
+
+SymbolTable:
+
+OutputList:
+
+Heap:
+----------------------------------------------------------------------------
+ExecStack:
+v = 10newH(v,20);newH(a,22);wH(a, 30);
+Print(a )Print(rH(a);)
+
+SymbolTable:
+a-->0
+
+OutputList:
+
+Heap:
+----------------------------------------------------------------------------
+ExecStack:
+Print(a )Print(rH(a);)
+v = 10newH(v,20);
+newH(a,22);wH(a, 30);
+
+SymbolTable:
+a-->0
+
+OutputList:
+
+Heap:
+----------------------------------------------------------------------------
+ExecStack:
+v = 10newH(v,20);
+newH(a,22);wH(a, 30);
+Print(a )
+Print(rH(a);)
+
+SymbolTable:
+a-->0
+
+OutputList:
+
+Heap:
+----------------------------------------------------------------------------
+ExecStack:
+newH(a,22);wH(a, 30);
+Print(a )
+Print(rH(a);)
+v = 10
+newH(v,20);
+
+SymbolTable:
+a-->0
+
+OutputList:
+
+Heap:
+----------------------------------------------------------------------------
+ExecStack:
+Print(a )
+Print(rH(a);)
+v = 10
+newH(v,20);
+newH(a,22);
+wH(a, 30);
+
+SymbolTable:
+a-->0
+
+OutputList:
+
+Heap:
+----------------------------------------------------------------------------
+ExecStack:
+Print(rH(a);)
+v = 10
+newH(v,20);
+newH(a,22);
+wH(a, 30);
+
+SymbolTable:
+a-->0
+
+OutputList:
+0
+
+Heap:
+----------------------------------------------------------------------------
+ExecStack:
+v = 10
+newH(v,20);
+newH(a,22);
+wH(a, 30);
+
+SymbolTable:
+a-->0
+
+OutputList:
+0
+
+Heap:
+----------------------------------------------------------------------------
+ExecStack:
+newH(v,20);
+newH(a,22);
+wH(a, 30);
+
+SymbolTable:
+a-->0
+v-->10
+
+OutputList:
+0
+
+Heap:
+----------------------------------------------------------------------------
+ExecStack:
+newH(a,22);
+wH(a, 30);
+
+SymbolTable:
+a-->0
+v-->1
+
+OutputList:
+0
+
+Heap:
+1-->20
+----------------------------------------------------------------------------
+ExecStack:
+wH(a, 30);
+
+SymbolTable:
+a-->2
+v-->1
+
+OutputList:
+0
+
+Heap:
+1-->20
+2-->22
+----------------------------------------------------------------------------
+ExecStack:
+
+SymbolTable:
+a-->2
+v-->1
+
+OutputList:
+0
+
+Heap:
+1-->20
+2-->30
+----------------------------------------------------------------------------
+--------------------------------------------------------
+Andrei Olteanu
+Mon Nov 27 17:11:39 EET 2017
+--------------------------------------------------------
+
+
+ExecStack:
+v = 10newH(v,20);newH(a,22);wH(a, 30);
+Print(a )Print(rH(a);)a = 0
+
+SymbolTable:
+
+OutputList:
+
+Heap:
+----------------------------------------------------------------------------
+ExecStack:
+Print(a )Print(rH(a);)a = 0
+v = 10newH(v,20);
+newH(a,22);wH(a, 30);
+
+SymbolTable:
+
+OutputList:
+
+Heap:
+----------------------------------------------------------------------------
+ExecStack:
+v = 10newH(v,20);
+newH(a,22);wH(a, 30);
+Print(a )Print(rH(a);)
+a = 0
+
+SymbolTable:
+
+OutputList:
+
+Heap:
+----------------------------------------------------------------------------
+ExecStack:
+newH(a,22);wH(a, 30);
+Print(a )Print(rH(a);)
+a = 0
+v = 10
+newH(v,20);
+
+SymbolTable:
+
+OutputList:
+
+Heap:
+----------------------------------------------------------------------------
+ExecStack:
+Print(a )Print(rH(a);)
+a = 0
+v = 10
+newH(v,20);
+newH(a,22);
+wH(a, 30);
+
+SymbolTable:
+
+OutputList:
+
+Heap:
+----------------------------------------------------------------------------
+ExecStack:
+a = 0
+v = 10
+newH(v,20);
+newH(a,22);
+wH(a, 30);
+Print(a )
+Print(rH(a);)
+
+SymbolTable:
+
+OutputList:
+
+Heap:
+----------------------------------------------------------------------------
+ExecStack:
+v = 10
+newH(v,20);
+newH(a,22);
+wH(a, 30);
+Print(a )
+Print(rH(a);)
+
+SymbolTable:
+a-->0
+
+OutputList:
+
+Heap:
+----------------------------------------------------------------------------
+ExecStack:
+newH(v,20);
+newH(a,22);
+wH(a, 30);
+Print(a )
+Print(rH(a);)
+
+SymbolTable:
+a-->0
+v-->10
+
+OutputList:
+
+Heap:
+----------------------------------------------------------------------------
+ExecStack:
+newH(a,22);
+wH(a, 30);
+Print(a )
+Print(rH(a);)
+
+SymbolTable:
+a-->0
+v-->1
+
+OutputList:
+
+Heap:
+1-->20
+----------------------------------------------------------------------------
+ExecStack:
+wH(a, 30);
+Print(a )
+Print(rH(a);)
+
+SymbolTable:
+a-->2
+v-->1
+
+OutputList:
+
+Heap:
+1-->20
+2-->22
+----------------------------------------------------------------------------
+ExecStack:
+Print(a )
+Print(rH(a);)
+
+SymbolTable:
+a-->2
+v-->1
+
+OutputList:
+
+Heap:
+1-->20
+2-->30
+----------------------------------------------------------------------------
+ExecStack:
+Print(rH(a);)
+
+SymbolTable:
+a-->2
+v-->1
+
+OutputList:
+2
+
+Heap:
+1-->20
+2-->30
+----------------------------------------------------------------------------
+ExecStack:
+
+SymbolTable:
+a-->2
+v-->1
+
+OutputList:
+2
+30
+
+Heap:
+1-->20
+2-->30
+----------------------------------------------------------------------------
+--------------------------------------------------------
+Andrei Olteanu
+Mon Nov 27 17:13:49 EET 2017
+--------------------------------------------------------
+
+
+ExecStack:
+v = 10newH(v,20);newH(a,22);wH(a, 30);
+Print(a )Print(rH(a);)a = 0
+
+SymbolTable:
+
+OutputList:
+
+Heap:
+----------------------------------------------------------------------------
+ExecStack:
+Print(a )Print(rH(a);)a = 0
+v = 10newH(v,20);
+newH(a,22);wH(a, 30);
+
+SymbolTable:
+
+OutputList:
+
+Heap:
+----------------------------------------------------------------------------
+ExecStack:
+v = 10newH(v,20);
+newH(a,22);wH(a, 30);
+Print(a )Print(rH(a);)
+a = 0
+
+SymbolTable:
+
+OutputList:
+
+Heap:
+----------------------------------------------------------------------------
+ExecStack:
+newH(a,22);wH(a, 30);
+Print(a )Print(rH(a);)
+a = 0
+v = 10
+newH(v,20);
+
+SymbolTable:
+
+OutputList:
+
+Heap:
+----------------------------------------------------------------------------
+ExecStack:
+Print(a )Print(rH(a);)
+a = 0
+v = 10
+newH(v,20);
+newH(a,22);
+wH(a, 30);
+
+SymbolTable:
+
+OutputList:
+
+Heap:
+----------------------------------------------------------------------------
+ExecStack:
+a = 0
+v = 10
+newH(v,20);
+newH(a,22);
+wH(a, 30);
+Print(a )
+Print(rH(a);)
+
+SymbolTable:
+
+OutputList:
+
+Heap:
+----------------------------------------------------------------------------
+ExecStack:
+v = 10
+newH(v,20);
+newH(a,22);
+wH(a, 30);
+Print(a )
+Print(rH(a);)
+
+SymbolTable:
+a-->0
+
+OutputList:
+
+Heap:
+----------------------------------------------------------------------------
+ExecStack:
+newH(v,20);
+newH(a,22);
+wH(a, 30);
+Print(a )
+Print(rH(a);)
+
+SymbolTable:
+a-->0
+v-->10
+
+OutputList:
+
+Heap:
+----------------------------------------------------------------------------
+ExecStack:
+newH(a,22);
+wH(a, 30);
+Print(a )
+Print(rH(a);)
+
+SymbolTable:
+a-->0
+v-->1
+
+OutputList:
+
+Heap:
+1-->20
+----------------------------------------------------------------------------
+ExecStack:
+wH(a, 30);
+Print(a )
+Print(rH(a);)
+
+SymbolTable:
+a-->2
+v-->1
+
+OutputList:
+
+Heap:
+1-->20
+2-->22
+----------------------------------------------------------------------------
+ExecStack:
+Print(a )
+Print(rH(a);)
+
+SymbolTable:
+a-->2
+v-->1
+
+OutputList:
+
+Heap:
+1-->20
+2-->30
+----------------------------------------------------------------------------
+ExecStack:
+Print(rH(a);)
+
+SymbolTable:
+a-->2
+v-->1
+
+OutputList:
+2
+
+Heap:
+1-->20
+2-->30
+----------------------------------------------------------------------------
+ExecStack:
+
+SymbolTable:
+a-->2
+v-->1
+
+OutputList:
+2
+30
+
+Heap:
+1-->20
+2-->30
+----------------------------------------------------------------------------
+--------------------------------------------------------
+Andrei Olteanu
+Mon Nov 27 17:20:54 EET 2017
+--------------------------------------------------------
+
+
+ExecStack:
+v = 10newH(v,20);newH(a,22);wH(a, 30);
+Print(a )Print(rH(a);)Print(rH(v);)
+
+SymbolTable:
+
+OutputList:
+
+Heap:
+----------------------------------------------------------------------------
+ExecStack:
+Print(a )Print(rH(a);)Print(rH(v);)
+v = 10newH(v,20);
+newH(a,22);wH(a, 30);
+
+SymbolTable:
+
+OutputList:
+
+Heap:
+----------------------------------------------------------------------------
+ExecStack:
+v = 10newH(v,20);
+newH(a,22);wH(a, 30);
+Print(a )Print(rH(a);)
+Print(rH(v);)
+
+SymbolTable:
+
+OutputList:
+
+Heap:
+----------------------------------------------------------------------------
+ExecStack:
+newH(a,22);wH(a, 30);
+Print(a )Print(rH(a);)
+Print(rH(v);)
+v = 10
+newH(v,20);
+
+SymbolTable:
+
+OutputList:
+
+Heap:
+----------------------------------------------------------------------------
+ExecStack:
+Print(a )Print(rH(a);)
+Print(rH(v);)
+v = 10
+newH(v,20);
+newH(a,22);
+wH(a, 30);
+
+SymbolTable:
+
+OutputList:
+
+Heap:
+----------------------------------------------------------------------------
+ExecStack:
+Print(rH(v);)
+v = 10
+newH(v,20);
+newH(a,22);
+wH(a, 30);
+Print(a )
+Print(rH(a);)
+
+SymbolTable:
+
+OutputList:
+
+Heap:
+----------------------------------------------------------------------------
+ExecStack:
+v = 10
+newH(v,20);
+newH(a,22);
+wH(a, 30);
+Print(a )
+Print(rH(a);)
+
+SymbolTable:
+
+OutputList:
+
+Heap:
+----------------------------------------------------------------------------
+ExecStack:
+newH(v,20);
+newH(a,22);
+wH(a, 30);
+Print(a )
+Print(rH(a);)
+
+SymbolTable:
+v-->10
+
+OutputList:
+
+Heap:
+----------------------------------------------------------------------------
+ExecStack:
+newH(a,22);
+wH(a, 30);
+Print(a )
+Print(rH(a);)
+
+SymbolTable:
+v-->1
+
+OutputList:
+
+Heap:
+1-->20
+----------------------------------------------------------------------------
+ExecStack:
+wH(a, 30);
+Print(a )
+Print(rH(a);)
+
+SymbolTable:
+a-->2
+v-->1
+
+OutputList:
+
+Heap:
+1-->20
+2-->22
+----------------------------------------------------------------------------
+ExecStack:
+Print(a )
+Print(rH(a);)
+
+SymbolTable:
+a-->2
+v-->1
+
+OutputList:
+
+Heap:
+1-->20
+2-->30
+----------------------------------------------------------------------------
+ExecStack:
+Print(rH(a);)
+
+SymbolTable:
+a-->2
+v-->1
+
+OutputList:
+2
+
+Heap:
+1-->20
+2-->30
+----------------------------------------------------------------------------
+ExecStack:
+
+SymbolTable:
+a-->2
+v-->1
+
+OutputList:
+2
+30
+
+Heap:
+1-->20
+2-->30
+----------------------------------------------------------------------------
+--------------------------------------------------------
+Andrei Olteanu
+Mon Nov 27 17:22:12 EET 2017
+--------------------------------------------------------
+
+
+ExecStack:
+v = 10newH(v,20);newH(a,22);wH(a, 30);
+Print(a )Print(rH(a);)wH(a, 100);
+
+SymbolTable:
+
+OutputList:
+
+Heap:
+----------------------------------------------------------------------------
+ExecStack:
+Print(a )Print(rH(a);)wH(a, 100);
+v = 10newH(v,20);
+newH(a,22);wH(a, 30);
+
+SymbolTable:
+
+OutputList:
+
+Heap:
+----------------------------------------------------------------------------
+ExecStack:
+v = 10newH(v,20);
+newH(a,22);wH(a, 30);
+Print(a )Print(rH(a);)
+wH(a, 100);
+
+SymbolTable:
+
+OutputList:
+
+Heap:
+----------------------------------------------------------------------------
+ExecStack:
+newH(a,22);wH(a, 30);
+Print(a )Print(rH(a);)
+wH(a, 100);
+v = 10
+newH(v,20);
+
+SymbolTable:
+
+OutputList:
+
+Heap:
+----------------------------------------------------------------------------
+ExecStack:
+Print(a )Print(rH(a);)
+wH(a, 100);
+v = 10
+newH(v,20);
+newH(a,22);
+wH(a, 30);
+
+SymbolTable:
+
+OutputList:
+
+Heap:
+----------------------------------------------------------------------------
+ExecStack:
+wH(a, 100);
+v = 10
+newH(v,20);
+newH(a,22);
+wH(a, 30);
+Print(a )
+Print(rH(a);)
+
+SymbolTable:
+
+OutputList:
+
+Heap:
+----------------------------------------------------------------------------
+ExecStack:
+v = 10
+newH(v,20);
+newH(a,22);
+wH(a, 30);
+Print(a )
+Print(rH(a);)
+
+SymbolTable:
+
+OutputList:
+
+Heap:
+----------------------------------------------------------------------------
+ExecStack:
+newH(v,20);
+newH(a,22);
+wH(a, 30);
+Print(a )
+Print(rH(a);)
+
+SymbolTable:
+v-->10
+
+OutputList:
+
+Heap:
+----------------------------------------------------------------------------
+ExecStack:
+newH(a,22);
+wH(a, 30);
+Print(a )
+Print(rH(a);)
+
+SymbolTable:
+v-->1
+
+OutputList:
+
+Heap:
+1-->20
+----------------------------------------------------------------------------
+ExecStack:
+wH(a, 30);
+Print(a )
+Print(rH(a);)
+
+SymbolTable:
+a-->2
+v-->1
+
+OutputList:
+
+Heap:
+1-->20
+2-->22
+----------------------------------------------------------------------------
+ExecStack:
+Print(a )
+Print(rH(a);)
+
+SymbolTable:
+a-->2
+v-->1
+
+OutputList:
+
+Heap:
+1-->20
+2-->30
+----------------------------------------------------------------------------
+ExecStack:
+Print(rH(a);)
+
+SymbolTable:
+a-->2
+v-->1
+
+OutputList:
+2
+
+Heap:
+1-->20
+2-->30
+----------------------------------------------------------------------------
+ExecStack:
+
+SymbolTable:
+a-->2
+v-->1
+
+OutputList:
+2
+30
+
+Heap:
+1-->20
+2-->30
+----------------------------------------------------------------------------
+--------------------------------------------------------
+Andrei Olteanu
+Mon Nov 27 17:30:40 EET 2017
+--------------------------------------------------------
+
+
+ExecStack:
+v = 10newH(v,20);newH(a,22);wH(a, 30);
+Print(a )Print(rH(a);)a = 0
+
+SymbolTable:
+
+OutputList:
+
+Heap:
+----------------------------------------------------------------------------
+ExecStack:
+Print(a )Print(rH(a);)a = 0
+v = 10newH(v,20);
+newH(a,22);wH(a, 30);
+
+SymbolTable:
+
+OutputList:
+
+Heap:
+----------------------------------------------------------------------------
+ExecStack:
+v = 10newH(v,20);
+newH(a,22);wH(a, 30);
+Print(a )Print(rH(a);)
+a = 0
+
+SymbolTable:
+
+OutputList:
+
+Heap:
+----------------------------------------------------------------------------
+ExecStack:
+newH(a,22);wH(a, 30);
+Print(a )Print(rH(a);)
+a = 0
+v = 10
+newH(v,20);
+
+SymbolTable:
+
+OutputList:
+
+Heap:
+----------------------------------------------------------------------------
+ExecStack:
+Print(a )Print(rH(a);)
+a = 0
+v = 10
+newH(v,20);
+newH(a,22);
+wH(a, 30);
+
+SymbolTable:
+
+OutputList:
+
+Heap:
+----------------------------------------------------------------------------
+ExecStack:
+a = 0
+v = 10
+newH(v,20);
+newH(a,22);
+wH(a, 30);
+Print(a )
+Print(rH(a);)
+
+SymbolTable:
+
+OutputList:
+
+Heap:
+----------------------------------------------------------------------------
+ExecStack:
+v = 10
+newH(v,20);
+newH(a,22);
+wH(a, 30);
+Print(a )
+Print(rH(a);)
+
+SymbolTable:
+a-->0
+
+OutputList:
+
+Heap:
+----------------------------------------------------------------------------
+ExecStack:
+newH(v,20);
+newH(a,22);
+wH(a, 30);
+Print(a )
+Print(rH(a);)
+
+SymbolTable:
+a-->0
+v-->10
+
+OutputList:
+
+Heap:
+----------------------------------------------------------------------------
+ExecStack:
+newH(a,22);
+wH(a, 30);
+Print(a )
+Print(rH(a);)
+
+SymbolTable:
+a-->0
+v-->1
+
+OutputList:
+
+Heap:
+1-->20
+----------------------------------------------------------------------------
+ExecStack:
+wH(a, 30);
+Print(a )
+Print(rH(a);)
+
+SymbolTable:
+a-->2
+v-->1
+
+OutputList:
+
+Heap:
+1-->20
+2-->22
+----------------------------------------------------------------------------
+ExecStack:
+Print(a )
+Print(rH(a);)
+
+SymbolTable:
+a-->2
+v-->1
+
+OutputList:
+
+Heap:
+1-->20
+2-->30
+----------------------------------------------------------------------------
+ExecStack:
+Print(rH(a);)
+
+SymbolTable:
+a-->2
+v-->1
+
+OutputList:
+2
+
+Heap:
+1-->20
+2-->30
+----------------------------------------------------------------------------
+ExecStack:
+
+SymbolTable:
+a-->2
+v-->1
+
+OutputList:
+2
+30
+
+Heap:
+1-->20
+2-->30
+----------------------------------------------------------------------------
+--------------------------------------------------------
+Andrei Olteanu
+Mon Nov 27 17:33:09 EET 2017
+--------------------------------------------------------
+
+
+ExecStack:
+Print(a )Print(rH(a);)a = 0
+v = 10newH(v,20);newH(a,22);wH(a, 30);
+
+SymbolTable:
+
+OutputList:
+
+Heap:
+----------------------------------------------------------------------------
+ExecStack:
+v = 10newH(v,20);newH(a,22);wH(a, 30);
+a = 0
+Print(a )Print(rH(a);)
+
+SymbolTable:
+
+OutputList:
+
+Heap:
+----------------------------------------------------------------------------
+ExecStack:
+a = 0
+Print(a )Print(rH(a);)
+newH(a,22);wH(a, 30);
+v = 10newH(v,20);
+
+SymbolTable:
+
+OutputList:
+
+Heap:
+----------------------------------------------------------------------------
+ExecStack:
+Print(a )Print(rH(a);)
+newH(a,22);wH(a, 30);
+v = 10newH(v,20);
+
+SymbolTable:
+a-->0
+
+OutputList:
+
+Heap:
+----------------------------------------------------------------------------
+ExecStack:
+newH(a,22);wH(a, 30);
+v = 10newH(v,20);
+Print(rH(a);)
+Print(a )
+
+SymbolTable:
+a-->0
+
+OutputList:
+
+Heap:
+----------------------------------------------------------------------------
+ExecStack:
+v = 10newH(v,20);
+Print(rH(a);)
+Print(a )
+wH(a, 30);
+newH(a,22);
+
+SymbolTable:
+a-->0
+
+OutputList:
+
+Heap:
+----------------------------------------------------------------------------
+ExecStack:
+Print(rH(a);)
+Print(a )
+wH(a, 30);
+newH(a,22);
+newH(v,20);
+v = 10
+
+SymbolTable:
+a-->0
+
+OutputList:
+
+Heap:
+----------------------------------------------------------------------------
+ExecStack:
+Print(a )
+wH(a, 30);
+newH(a,22);
+newH(v,20);
+v = 10
+
+SymbolTable:
+a-->0
+
+OutputList:
+
+Heap:
+----------------------------------------------------------------------------
+ExecStack:
+wH(a, 30);
+newH(a,22);
+newH(v,20);
+v = 10
+
+SymbolTable:
+a-->0
+
+OutputList:
+0
+
+Heap:
+----------------------------------------------------------------------------
+ExecStack:
+newH(a,22);
+newH(v,20);
+v = 10
+
+SymbolTable:
+a-->0
+
+OutputList:
+0
+
+Heap:
+0-->30
+----------------------------------------------------------------------------
+ExecStack:
+newH(v,20);
+v = 10
+
+SymbolTable:
+a-->1
+
+OutputList:
+0
+
+Heap:
+1-->22
+----------------------------------------------------------------------------
+ExecStack:
+v = 10
+
+SymbolTable:
+a-->1
+v-->2
+
+OutputList:
+0
+
+Heap:
+1-->22
+2-->20
+----------------------------------------------------------------------------
+ExecStack:
+
+SymbolTable:
+a-->1
+v-->10
+
+OutputList:
+0
+
+Heap:
+1-->22
+----------------------------------------------------------------------------
+--------------------------------------------------------
+Andrei Olteanu
+Mon Nov 27 17:35:40 EET 2017
+--------------------------------------------------------
+
+
+ExecStack:
+a = 0Print(a )Print(rH(a);)
+newH(a,22);wH(a, 30);v = 10newH(v,20);
+
+SymbolTable:
+
+OutputList:
+
+Heap:
+----------------------------------------------------------------------------
+ExecStack:
+newH(a,22);wH(a, 30);v = 10newH(v,20);
+a = 0
+Print(a )Print(rH(a);)
+
+SymbolTable:
+
+OutputList:
+
+Heap:
+----------------------------------------------------------------------------
+ExecStack:
+a = 0
+Print(a )Print(rH(a);)
+newH(a,22);wH(a, 30);
+v = 10newH(v,20);
+
+SymbolTable:
+
+OutputList:
+
+Heap:
+----------------------------------------------------------------------------
+ExecStack:
+Print(a )Print(rH(a);)
+newH(a,22);wH(a, 30);
+v = 10newH(v,20);
+
+SymbolTable:
+a-->0
+
+OutputList:
+
+Heap:
+----------------------------------------------------------------------------
+ExecStack:
+newH(a,22);wH(a, 30);
+v = 10newH(v,20);
+Print(a )
+Print(rH(a);)
+
+SymbolTable:
+a-->0
+
+OutputList:
+
+Heap:
+----------------------------------------------------------------------------
+ExecStack:
+v = 10newH(v,20);
+Print(a )
+Print(rH(a);)
+newH(a,22);
+wH(a, 30);
+
+SymbolTable:
+a-->0
+
+OutputList:
+
+Heap:
+----------------------------------------------------------------------------
+ExecStack:
+Print(a )
+Print(rH(a);)
+newH(a,22);
+wH(a, 30);
+v = 10
+newH(v,20);
+
+SymbolTable:
+a-->0
+
+OutputList:
+
+Heap:
+----------------------------------------------------------------------------
+ExecStack:
+Print(rH(a);)
+newH(a,22);
+wH(a, 30);
+v = 10
+newH(v,20);
+
+SymbolTable:
+a-->0
+
+OutputList:
+0
+
+Heap:
+----------------------------------------------------------------------------
+ExecStack:
+newH(a,22);
+wH(a, 30);
+v = 10
+newH(v,20);
+
+SymbolTable:
+a-->0
+
+OutputList:
+0
+
+Heap:
+----------------------------------------------------------------------------
+ExecStack:
+wH(a, 30);
+v = 10
+newH(v,20);
+
+SymbolTable:
+a-->1
+
+OutputList:
+0
+
+Heap:
+1-->22
+----------------------------------------------------------------------------
+ExecStack:
+v = 10
+newH(v,20);
+
+SymbolTable:
+a-->1
+
+OutputList:
+0
+
+Heap:
+1-->30
+----------------------------------------------------------------------------
+ExecStack:
+newH(v,20);
+
+SymbolTable:
+a-->1
+v-->10
+
+OutputList:
+0
+
+Heap:
+1-->30
+----------------------------------------------------------------------------
+ExecStack:
+
+SymbolTable:
+a-->1
+v-->2
+
+OutputList:
+0
+
+Heap:
+1-->30
+2-->20
+----------------------------------------------------------------------------
+--------------------------------------------------------
+Andrei Olteanu
+Mon Nov 27 17:36:24 EET 2017
+--------------------------------------------------------
+
+
+ExecStack:
+v = 10newH(v,20);newH(a,22);wH(a, 30);
+a = 0Print(a )Print(rH(a);)
+
+SymbolTable:
+
+OutputList:
+
+Heap:
+----------------------------------------------------------------------------
+ExecStack:
+a = 0Print(a )Print(rH(a);)
+v = 10newH(v,20);
+newH(a,22);wH(a, 30);
+
+SymbolTable:
+
+OutputList:
+
+Heap:
+----------------------------------------------------------------------------
+ExecStack:
+v = 10newH(v,20);
+newH(a,22);wH(a, 30);
+a = 0
+Print(a )Print(rH(a);)
+
+SymbolTable:
+
+OutputList:
+
+Heap:
+----------------------------------------------------------------------------
+ExecStack:
+newH(a,22);wH(a, 30);
+a = 0
+Print(a )Print(rH(a);)
+v = 10
+newH(v,20);
+
+SymbolTable:
+
+OutputList:
+
+Heap:
+----------------------------------------------------------------------------
+ExecStack:
+a = 0
+Print(a )Print(rH(a);)
+v = 10
+newH(v,20);
+newH(a,22);
+wH(a, 30);
+
+SymbolTable:
+
+OutputList:
+
+Heap:
+----------------------------------------------------------------------------
+ExecStack:
+Print(a )Print(rH(a);)
+v = 10
+newH(v,20);
+newH(a,22);
+wH(a, 30);
+
+SymbolTable:
+a-->0
+
+OutputList:
+
+Heap:
+----------------------------------------------------------------------------
+ExecStack:
+v = 10
+newH(v,20);
+newH(a,22);
+wH(a, 30);
+Print(a )
+Print(rH(a);)
+
+SymbolTable:
+a-->0
+
+OutputList:
+
+Heap:
+----------------------------------------------------------------------------
+ExecStack:
+newH(v,20);
+newH(a,22);
+wH(a, 30);
+Print(a )
+Print(rH(a);)
+
+SymbolTable:
+a-->0
+v-->10
+
+OutputList:
+
+Heap:
+----------------------------------------------------------------------------
+ExecStack:
+newH(a,22);
+wH(a, 30);
+Print(a )
+Print(rH(a);)
+
+SymbolTable:
+a-->0
+v-->1
+
+OutputList:
+
+Heap:
+1-->20
+----------------------------------------------------------------------------
+ExecStack:
+wH(a, 30);
+Print(a )
+Print(rH(a);)
+
+SymbolTable:
+a-->2
+v-->1
+
+OutputList:
+
+Heap:
+1-->20
+2-->22
+----------------------------------------------------------------------------
+ExecStack:
+Print(a )
+Print(rH(a);)
+
+SymbolTable:
+a-->2
+v-->1
+
+OutputList:
+
+Heap:
+1-->20
+2-->30
+----------------------------------------------------------------------------
+ExecStack:
+Print(rH(a);)
+
+SymbolTable:
+a-->2
+v-->1
+
+OutputList:
+2
+
+Heap:
+1-->20
+2-->30
+----------------------------------------------------------------------------
+ExecStack:
+
+SymbolTable:
+a-->2
+v-->1
+
+OutputList:
+2
+30
+
+Heap:
+1-->20
+2-->30
+----------------------------------------------------------------------------
+--------------------------------------------------------
+Andrei Olteanu
+Mon Nov 27 17:37:45 EET 2017
+--------------------------------------------------------
+
+
+ExecStack:
+v = 10newH(v,20);newH(a,22);wH(a, 30);
+Print(a )Print(rH(a);)a = 0
+
+SymbolTable:
+
+OutputList:
+
+Heap:
+----------------------------------------------------------------------------
+ExecStack:
+Print(a )Print(rH(a);)a = 0
+v = 10newH(v,20);
+newH(a,22);wH(a, 30);
+
+SymbolTable:
+
+OutputList:
+
+Heap:
+----------------------------------------------------------------------------
+ExecStack:
+v = 10newH(v,20);
+newH(a,22);wH(a, 30);
+Print(a )Print(rH(a);)
+a = 0
+
+SymbolTable:
+
+OutputList:
+
+Heap:
+----------------------------------------------------------------------------
+ExecStack:
+newH(a,22);wH(a, 30);
+Print(a )Print(rH(a);)
+a = 0
+v = 10
+newH(v,20);
+
+SymbolTable:
+
+OutputList:
+
+Heap:
+----------------------------------------------------------------------------
+ExecStack:
+Print(a )Print(rH(a);)
+a = 0
+v = 10
+newH(v,20);
+newH(a,22);
+wH(a, 30);
+
+SymbolTable:
+
+OutputList:
+
+Heap:
+----------------------------------------------------------------------------
+ExecStack:
+a = 0
+v = 10
+newH(v,20);
+newH(a,22);
+wH(a, 30);
+Print(a )
+Print(rH(a);)
+
+SymbolTable:
+
+OutputList:
+
+Heap:
+----------------------------------------------------------------------------
+ExecStack:
+v = 10
+newH(v,20);
+newH(a,22);
+wH(a, 30);
+Print(a )
+Print(rH(a);)
+
+SymbolTable:
+a-->0
+
+OutputList:
+
+Heap:
+----------------------------------------------------------------------------
+ExecStack:
+newH(v,20);
+newH(a,22);
+wH(a, 30);
+Print(a )
+Print(rH(a);)
+
+SymbolTable:
+a-->0
+v-->10
+
+OutputList:
+
+Heap:
+----------------------------------------------------------------------------
+ExecStack:
+newH(a,22);
+wH(a, 30);
+Print(a )
+Print(rH(a);)
+
+SymbolTable:
+a-->0
+v-->1
+
+OutputList:
+
+Heap:
+1-->20
+----------------------------------------------------------------------------
+ExecStack:
+wH(a, 30);
+Print(a )
+Print(rH(a);)
+
+SymbolTable:
+a-->2
+v-->1
+
+OutputList:
+
+Heap:
+1-->20
+2-->22
+----------------------------------------------------------------------------
+ExecStack:
+Print(a )
+Print(rH(a);)
+
+SymbolTable:
+a-->2
+v-->1
+
+OutputList:
+
+Heap:
+1-->20
+2-->30
+----------------------------------------------------------------------------
+ExecStack:
+Print(rH(a);)
+
+SymbolTable:
+a-->2
+v-->1
+
+OutputList:
+2
+
+Heap:
+1-->20
+2-->30
+----------------------------------------------------------------------------
+ExecStack:
+
+SymbolTable:
+a-->2
+v-->1
+
+OutputList:
+2
+30
+
+Heap:
+1-->20
+2-->30
+----------------------------------------------------------------------------

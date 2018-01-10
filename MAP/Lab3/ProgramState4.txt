@@ -1,0 +1,190 @@
+
+--------------------------------------------------------
+Andrei Olteanu
+Fri Nov 9 12:38:57 EET 2017
+--------------------------------------------------------
+
+ExeStack:
+ OpenFile{fileName='a', varName='test.txt'}readFile(a,b)
+  Print( b )closeFile(a)
+Symbol table: 
+Output list: 
+ExeStack:
+  Print( b )closeFile(a)
+OpenFile{fileName='a', varName='test.txt'}
+readFile(a,b)
+Symbol table: 
+Output list: 
+ExeStack:
+OpenFile{fileName='a', varName='test.txt'}
+readFile(a,b)
+ Print( b )
+closeFile(a)
+Symbol table: 
+Output list: 
+
+--------------------------------------------------------
+Andrei Olteanu
+Fri Nov 9 12:41:09 EET 2017
+--------------------------------------------------------
+
+ExeStack:
+ OpenFile{fileName='a', varName='a.txt'}readFile(a,b)
+  Print( b )closeFile(a)
+Symbol table: 
+Output list: 
+ExeStack:
+  Print( b )closeFile(a)
+OpenFile{fileName='a', varName='a.txt'}
+readFile(a,b)
+Symbol table: 
+Output list: 
+ExeStack:
+OpenFile{fileName='a', varName='a.txt'}
+readFile(a,b)
+ Print( b )
+closeFile(a)
+Symbol table: 
+Output list: 
+
+--------------------------------------------------------
+Andrei Olteanu
+Fri Nov 10 12:57:11 EET 2017
+--------------------------------------------------------
+
+ExeStack:
+ OpenFile{fileName='a', varName='a.txt'}readFile(a,b)
+  Print( b )closeFile(a)
+Symbol table: 
+Output list: 
+ExeStack:
+  Print( b )closeFile(a)
+OpenFile{fileName='a', varName='a.txt'}
+readFile(a,b)
+Symbol table: 
+Output list: 
+ExeStack:
+OpenFile{fileName='a', varName='a.txt'}
+readFile(a,b)
+ Print( b )
+closeFile(a)
+Symbol table: 
+Output list: 
+
+--------------------------------------------------------
+Andrei Olteanu
+Fri Nov 10 12:58:59 EET 2017
+--------------------------------------------------------
+
+ExeStack:
+ OpenFile{fileName='a', varName='a.txt'}readFile(a,b)
+  Print( b )closeFile(a)
+Symbol table: 
+Output list: 
+ExeStack:
+  Print( b )closeFile(a)
+OpenFile{fileName='a', varName='a.txt'}
+readFile(a,b)
+Symbol table: 
+Output list: 
+ExeStack:
+OpenFile{fileName='a', varName='a.txt'}
+readFile(a,b)
+ Print( b )
+closeFile(a)
+Symbol table: 
+Output list: 
+
+--------------------------------------------------------
+Andrei Olteanu
+Fri Nov 10 12:46:32 EET 2017
+--------------------------------------------------------
+
+ExeStack:
+ OpenFile{fileName='a', varName='a.txt'}readFile(a,b)
+  Print( b )closeFile(a)
+Symbol table: 
+Output list: 
+ExeStack:
+  Print( b )closeFile(a)
+OpenFile{fileName='a', varName='a.txt'}
+readFile(a,b)
+Symbol table: 
+Output list: 
+ExeStack:
+OpenFile{fileName='a', varName='a.txt'}
+readFile(a,b)
+ Print( b )
+closeFile(a)
+Symbol table: 
+Output list: 
+
+--------------------------------------------------------
+Andrei Olteanu
+Fri Nov 10 12:46:41 EET 2017
+--------------------------------------------------------
+
+
+--------------------------------------------------------
+Andrei Olteanu
+Fri Nov 10 12:47:53 EET 2017
+--------------------------------------------------------
+
+ExeStack:
+ OpenFile{fileName='a', varName='a.txt'}readFile(a,b)
+  Print( b )closeFile(a)
+Symbol table: 
+Output list: 
+ExeStack:
+  Print( b )closeFile(a)
+OpenFile{fileName='a', varName='a.txt'}
+readFile(a,b)
+Symbol table: 
+Output list: 
+ExeStack:
+OpenFile{fileName='a', varName='a.txt'}
+readFile(a,b)
+ Print( b )
+closeFile(a)
+Symbol table: 
+Output list: 
+
+--------------------------------------------------------
+Andrei Olteanu
+Fri Nov 10 12:56:34 EET 2017
+--------------------------------------------------------
+
+ExeStack:
+Symbol table: 
+exception->-1
+Output list: 
+
+--------------------------------------------------------
+Andrei Olteanu
+Fri Nov 10 13:01:36 EET 2017
+--------------------------------------------------------
+
+ExeStack:
+Symbol table: 
+exception->-1
+Output list: 
+
+--------------------------------------------------------
+Andrei Olteanu
+Fri Nov 10 13:10:21 EET 2017
+--------------------------------------------------------
+
+ExeStack:
+Symbol table: 
+exception->-1
+Output list: 
+
+--------------------------------------------------------
+Andrei Olteanu
+Fri Nov 10 13:14:00 EET 2017
+--------------------------------------------------------
+
+ExeStack:
+Symbol table: 
+exception->-1
+Output list: 

@@ -1,0 +1,14 @@
+﻿<Properties StartupConfiguration="{F7342C86-0E30-4C19-9BA1-53B15B765322}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="LAB7-MAP/Statements/PrgState.cs">
+    <Files>
+      <File FileName="LAB7-MAP/Statements/PrgState.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.LAB7-MAP PreferredExecutionTarget="MonoDevelop.Default" />
+</Properties>

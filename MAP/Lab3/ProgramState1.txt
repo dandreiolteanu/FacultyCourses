@@ -1,0 +1,120 @@
+
+--------------------------------------------------------
+Andrei Olteanu
+Fri Nov 9 11:58:02 EET 2017
+--------------------------------------------------------
+
+ExeStack:
+a = 10
+  IF(a - 5)THEN( Print( 30 ))ELSE( Print( 1 ))  Print( 3 + 7 * a )
+Symbol table: 
+Output list: 
+ExeStack:
+  IF(a - 5)THEN( Print( 30 ))ELSE( Print( 1 ))  Print( 3 + 7 * a )
+Symbol table: 
+a->10
+Output list: 
+ExeStack:
+ IF(a - 5)THEN( Print( 30 ))ELSE( Print( 1 )) 
+ Print( 3 + 7 * a )
+Symbol table: 
+a->10
+Output list: 
+ExeStack:
+ Print( 3 + 7 * a )
+ Print( 30 )
+Symbol table: 
+a->10
+Output list: 
+ExeStack:
+ Print( 30 )
+Symbol table: 
+a->10
+Output list: 
+100
+ExeStack:
+Symbol table: 
+a->10
+Output list: 
+100
+30
+
+--------------------------------------------------------
+Andrei Olteanu
+Fri Nov 10 11:59:22 EET 2017
+--------------------------------------------------------
+
+ExeStack:
+a = 10
+  IF(a - 5)THEN( Print( 30 ))ELSE( Print( 1 ))  Print( 3 + 7 * a )
+Symbol table: 
+Output list: 
+ExeStack:
+  IF(a - 5)THEN( Print( 30 ))ELSE( Print( 1 ))  Print( 3 + 7 * a )
+Symbol table: 
+a->10
+Output list: 
+ExeStack:
+ IF(a - 5)THEN( Print( 30 ))ELSE( Print( 1 )) 
+ Print( 3 + 7 * a )
+Symbol table: 
+a->10
+Output list: 
+ExeStack:
+ Print( 3 + 7 * a )
+ Print( 30 )
+Symbol table: 
+a->10
+Output list: 
+ExeStack:
+ Print( 30 )
+Symbol table: 
+a->10
+Output list: 
+100
+ExeStack:
+Symbol table: 
+a->10
+Output list: 
+100
+30
+
+--------------------------------------------------------
+Andrei Olteanu
+Fri Nov 10 13:01:34 EET 2017
+--------------------------------------------------------
+
+ExeStack:
+a = 10
+  IF(a - 5)THEN( Print( 30 ))ELSE( Print( 1 ))  Print( 3 + 7 * a )
+Symbol table: 
+Output list: 
+ExeStack:
+  IF(a - 5)THEN( Print( 30 ))ELSE( Print( 1 ))  Print( 3 + 7 * a )
+Symbol table: 
+a->10
+Output list: 
+ExeStack:
+ IF(a - 5)THEN( Print( 30 ))ELSE( Print( 1 )) 
+ Print( 3 + 7 * a )
+Symbol table: 
+a->10
+Output list: 
+ExeStack:
+ Print( 3 + 7 * a )
+ Print( 30 )
+Symbol table: 
+a->10
+Output list: 
+ExeStack:
+ Print( 30 )
+Symbol table: 
+a->10
+Output list: 
+100
+ExeStack:
+Symbol table: 
+a->10
+Output list: 
+100
+30

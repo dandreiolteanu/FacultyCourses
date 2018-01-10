@@ -1,0 +1,136 @@
+
+--------------------------------------------------------
+Andrei Olteanu
+Fri Nov 9 11:58:50 EET 2017
+--------------------------------------------------------
+
+ExeStack:
+a = 10 + 40
+ b = a + 50 Print( a + b )
+Symbol table: 
+Output list: 
+ExeStack:
+ b = a + 50 Print( a + b )
+Symbol table: 
+a->50
+Output list: 
+ExeStack:
+b = a + 50
+ Print( a + b )
+Symbol table: 
+a->50
+Output list: 
+ExeStack:
+ Print( a + b )
+Symbol table: 
+a->50
+b->100
+Output list: 
+ExeStack:
+Symbol table: 
+a->50
+b->100
+Output list: 
+150
+
+--------------------------------------------------------
+Andrei Olteanu
+Fri Nov 10 11:59:24 EET 2017
+--------------------------------------------------------
+
+ExeStack:
+a = 10 + 40
+ b = a + 50 Print( a + b )
+Symbol table: 
+Output list: 
+ExeStack:
+ b = a + 50 Print( a + b )
+Symbol table: 
+a->50
+Output list: 
+ExeStack:
+b = a + 50
+ Print( a + b )
+Symbol table: 
+a->50
+Output list: 
+ExeStack:
+ Print( a + b )
+Symbol table: 
+a->50
+b->100
+Output list: 
+ExeStack:
+Symbol table: 
+a->50
+b->100
+Output list: 
+150
+
+--------------------------------------------------------
+Andrei Olteanu
+Fri Nov 10 12:54:01 EET 2017
+--------------------------------------------------------
+
+ExeStack:
+a = 10 + 40
+ b = a + 50 Print( a + b )
+Symbol table: 
+Output list: 
+ExeStack:
+ b = a + 50 Print( a + b )
+Symbol table: 
+a->50
+Output list: 
+ExeStack:
+b = a + 50
+ Print( a + b )
+Symbol table: 
+a->50
+Output list: 
+ExeStack:
+ Print( a + b )
+Symbol table: 
+a->50
+b->100
+Output list: 
+ExeStack:
+Symbol table: 
+a->50
+b->100
+Output list: 
+150
+
+--------------------------------------------------------
+Andrei Olteanu
+Fri Nov 10 13:01:35 EET 2017
+--------------------------------------------------------
+
+ExeStack:
+a = 10 + 40
+ b = a + 50 Print( a + b )
+Symbol table: 
+Output list: 
+ExeStack:
+ b = a + 50 Print( a + b )
+Symbol table: 
+a->50
+Output list: 
+ExeStack:
+b = a + 50
+ Print( a + b )
+Symbol table: 
+a->50
+Output list: 
+ExeStack:
+ Print( a + b )
+Symbol table: 
+a->50
+b->100
+Output list: 
+ExeStack:
+Symbol table: 
+a->50
+b->100
+Output list: 
+150
