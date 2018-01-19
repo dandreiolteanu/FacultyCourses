@@ -1,0 +1,6 @@
+CREATE VIEW View_3
+AS
+SELECT c.categoryName
+FROM CATEGORIES c
+INNER JOIN DISH d ON d.CID = c.CID
+GROUP BY c.categoryName

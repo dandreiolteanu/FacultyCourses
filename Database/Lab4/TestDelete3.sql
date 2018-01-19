@@ -1,0 +1,8 @@
+USE Foodster
+GO
+CREATE PROCEDURE TestDelete3
+AS
+BEGIN
+	DELETE ORDR
+	DELETE OrderToDishes
+END

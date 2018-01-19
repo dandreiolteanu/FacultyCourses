@@ -1,0 +1,40 @@
+USE Foodster
+GO
+
+ALTER PROCEDURE CRUD_ORDR @OID INT, @timeStamp DATE, @paymentType VARCHAR(50), @total FLOAT, @noOfRows INT
+AS
+BEGIN
+	--INSERT
+	DECLARE @fkU INT
+	DECLARE @fkR VARCHAR(50)
+	SELECT TOP 1 @fkU = UID FROM USR
+	SELECT TOP 1 @fkR = RID FROM RESTAURANT WHERE RID LIKE 'To%'
+
+	DECLARE @n INT = 0
+	WHILE @n < @noOfRows
+	BEGIN
+		INSERT INTO ORDR(OID, timeStamp, paymentType, total, UID, RID) VALUES (@OID, @timeStamp, @paymentType, @total, @fkU, @fkR)
+		SET @n = @n + 1
+	END
+
+	--READ
+	SELECT * 
+	FROM ORDR
+	ORDER BY total DESC
+
+	--UPDATE
+	UPDATE ORDR SET total = 99999
+	WHERE OID = @OID
+
+	SELECT * 
+	FROM ORDR
+	ORDER BY total DESC
+
+	--DELETE
+	DELETE FROM ORDR
+	WHERE OID = @OID
+
+	SELECT * 
+	FROM ORDR
+	ORDER BY total DESC
+END

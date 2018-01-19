@@ -1,0 +1,38 @@
+USE Foodster
+GO
+
+ALTER PROCEDURE CRUD_EMPLOYEE @EID INT, @firstName VARCHAR(50), @lastName VARCHAR(50), @hoursWorked VARCHAR(50), @dateOfBirth VARCHAR(50), @noOfRows INT
+AS
+BEGIN
+	--INSERT
+	DECLARE @fkR VARCHAR(50)
+	SELECT TOP 1 @fkR = RID FROM RESTAURANT WHERE RID LIKE 'To%'
+
+	DECLARE @n INT = 0
+	WHILE @n < @noOfRows
+	BEGIN
+		INSERT INTO EMPLOYEE(EID, firstName, hoursWorked, dateOfBirth, RID) VALUES (@EID, @firstName, @lastName, @hoursWorked, @dateOfBirth, @fkR)
+		SET @n = @n + 1
+	END
+
+	--READ
+	SELECT * 
+	FROM EMPLOYEE
+	ORDER BY hoursWorked DESC
+
+	--UPDATE
+	UPDATE EMPLOYEE SET hoursWorked = 99999
+	WHERE EID = @EID
+
+	SELECT * 
+	FROM EMPLOYEE
+	ORDER BY hoursWorked DESC
+
+	--DELETE
+	DELETE FROM EMPLOYEE
+	WHERE EID = @EID
+
+	SELECT * 
+	FROM EMPLOYEE
+	ORDER BY hoursWorked DESC
+END

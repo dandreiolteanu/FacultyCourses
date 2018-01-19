@@ -1,0 +1,8 @@
+USE Foodster
+GO
+
+CREATE PROCEDURE TestRuns
+AS
+BEGIN
+	
+END
