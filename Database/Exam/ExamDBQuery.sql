@@ -90,59 +90,6 @@ INSERT INTO BuildingsEmployees(EID, BID, dateOfFinalization, amountPerMonth) VAL
 (3,2, '2018-01-03', 500)
 
 
-ALTER PROC insertOrUpdateBuildingEmployee
-	@BID INT,
-	@EID INT,
-	@dateOfFinalization DATE
-	@amountPerMonth INT
-AS
-BEGIN
-	IF EXISTS (SELECT * FROM BuildingsEmployees WHERE BID = @BID AND EID = @EID)
-		UPDATE BuildingsEmployees
-		SET dateOfFinalization = @dateOfFinalization
-		SET amountPerMonth = @amountPerMonth
-		WHERE BID = @BID AND EID = @EID
-	ELSE
-		INSERT BuildingsEmployees(EID, BID, dateOfFinalization, amountPerMonth) VALUES
-		(@EID, @BID, @dateOfFinalization, @amountPerMonth)
-END
-
-GO
-
-EXEC dbo.insertOrUpdateBuildingEmployee @EID = 1, 
-										@BID = 1, 
-										@dateOfFinalization = '2050-01-03',
-										@amountPerMonth = 1000
-EXEC dbo.insertOrUpdateBuildingEmployee @EID = 1, 
-										@BID = 3, 
-										@dateOfFinalization = '2099-01-03',
-										@amountPerMonth = 555
-
-SELECT * FROM BuildingsEmployees
-
-GO
-
-ALTER VIEW arhitectsWithMoreThan5
-AS
-	SELECT * FROM Arhitects
-	WHERE Arhitects.numberOfDesigned >= 5
-
-GO
-
-SELECT * FROM arhitectsWithMoreThan5
-
-
-ALTER FUNCTION lazyEmployees()
-RETURNS TABLE
-AS
-	RETURN SELECT * FROM Employees E
-	WHERE E.EID NOT IN(SELECT DISTINCT EID from BuildingsEmployees)
-
-GO
-
-SELECT * FROM lazyEmployees()
-
-
 
 
 
