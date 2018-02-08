@@ -61,4 +61,48 @@ public class Repository implements IRepository {
         }
         return null;
     }
+
+    @Override
+    public void serializeToFile(String fileName) {
+
+        FileOutputStream fileOut = null;
+        try {
+            fileOut = new FileOutputStream(fileName);
+            try {
+                ObjectOutputStream oos = new ObjectOutputStream(fileOut);
+                oos.writeObject(prgList.get(0));
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        }
+
+    }
+
+    @Override
+    public void deserializeFromFile(String fileName) {
+        PrgState prog = null;
+
+        try {
+            FileInputStream fileIn = new FileInputStream(fileName);
+            ObjectInputStream in = new ObjectInputStream(fileIn);
+            try {
+                prog = (PrgState) in.readObject();
+            } catch (ClassNotFoundException e) {
+                e.printStackTrace();
+            }
+            in.close();
+            fileIn.close();
+        }catch(IOException i) {
+            i.printStackTrace();
+
+            return;
+        }
+
+        prgList.clear();
+        prgList.add(prog);
+    }
+
+
 }

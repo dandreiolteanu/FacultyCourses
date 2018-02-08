@@ -11,4 +11,6 @@ public interface IRepository {
     void logPrgStateExec(PrgState prgState) throws IOException;
     void openLogFile() throws IOException;
     PrgState getById(int id);
+    public void serializeToFile(String fileName);
+    public void deserializeFromFile(String fileName);
 }

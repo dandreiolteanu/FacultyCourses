@@ -71,6 +71,9 @@ public class RunProgram {
     @FXML
     Label prgStatesNrFX;
 
+    @FXML
+    Button quitBtnPressed;
+
 
     public void initialize(PrgState selectedPrg, IRepository repository) {
 
@@ -78,6 +81,10 @@ public class RunProgram {
 
         this.populate(selectedPrg, repository);
         prgStatesNrFX.setText("PrgStates: " + String.valueOf(ctrl.getProgramStatesNumber()));
+
+        quitBtnPressed.setOnAction(event -> {
+            System.exit(0);
+        });
 
         oneStepButtonFX.setOnAction(event -> {
             try {
