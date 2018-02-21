@@ -42,7 +42,7 @@ git clone https://github.com/dandreiolteanu/FacultyCourses.git
 
 ## Author
 
-* **Andrei Olteanu** - *Website link* - [olteanu.io](http://olteanu.io)
+* **Andrei Olteanu** - *Website link* - [olteanu.webflow.io](http://olteanu.webflow.io)
 
 See also the list of my other  [GitHub projects](https://github.com/dandreiolteanu)
 and my [LinkedIn](https://www.linkedin.com/in/andreiolteanu/)
