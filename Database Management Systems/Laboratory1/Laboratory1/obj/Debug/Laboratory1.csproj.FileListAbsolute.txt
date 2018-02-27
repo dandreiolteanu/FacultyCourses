@@ -1,0 +1,10 @@
+Z:\Github\FacultyCourses\Database Management Systems\Laboratory1\Laboratory1\obj\Debug\Laboratory1.csprojResolveAssemblyReference.cache
+Z:\Github\FacultyCourses\Database Management Systems\Laboratory1\Laboratory1\obj\Debug\Laboratory1.Form1.resources
+Z:\Github\FacultyCourses\Database Management Systems\Laboratory1\Laboratory1\obj\Debug\Laboratory1.Properties.Resources.resources
+Z:\Github\FacultyCourses\Database Management Systems\Laboratory1\Laboratory1\obj\Debug\Laboratory1.csproj.GenerateResource.Cache
+Z:\Github\FacultyCourses\Database Management Systems\Laboratory1\Laboratory1\obj\Debug\Laboratory1.csproj.CoreCompileInputs.cache
+Z:\Github\FacultyCourses\Database Management Systems\Laboratory1\Laboratory1\bin\Debug\Laboratory1.exe.config
+Z:\Github\FacultyCourses\Database Management Systems\Laboratory1\Laboratory1\bin\Debug\Laboratory1.exe
+Z:\Github\FacultyCourses\Database Management Systems\Laboratory1\Laboratory1\bin\Debug\Laboratory1.pdb
+Z:\Github\FacultyCourses\Database Management Systems\Laboratory1\Laboratory1\obj\Debug\Laboratory1.exe
+Z:\Github\FacultyCourses\Database Management Systems\Laboratory1\Laboratory1\obj\Debug\Laboratory1.pdb
