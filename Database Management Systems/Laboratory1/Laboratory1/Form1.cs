@@ -25,11 +25,61 @@ namespace Laboratory1
         DataSet ds1 = new DataSet();
 
         int OID;
+        int UID;
         
         public Form1()
         {
             InitializeComponent();
             this.displayCustomers();
+       }
+
+        // Adds a new order to a certain Customer
+        private void addNewOrderBtn_Click(object sender, EventArgs e)
+        {
+            try
+            {
+
+                if (UID != 0)
+                {
+                    connection.Open();
+
+                    da1.InsertCommand = new SqlCommand("INSERT INTO ORDR(OID, timeStamp, paymentType, total, UID, RID) VALUES(@oid, @timeStamp, @paymentType, @total, @UID, @RID)", connection);
+                    da1.InsertCommand.Parameters.AddWithValue("@oid", Convert.ToInt32(textBoxOrderOID.Text));
+
+                    DateTime timeStamp = DateTime.Now;
+                    string sqlFormattedDate = timeStamp.ToString("yyyy-MM-dd HH:mm:ss.fff");
+                    da1.InsertCommand.Parameters.AddWithValue("@timeStamp", sqlFormattedDate);
+
+
+                    if (checkBoxCash.Checked == true)
+                    {
+                        da1.InsertCommand.Parameters.AddWithValue("@paymentType", checkBoxCash.Text);
+                    }
+                    else
+                    {
+                        da1.InsertCommand.Parameters.AddWithValue("@paymentType", checkBoxCreditCard.Text);
+                    }
+                    da1.InsertCommand.Parameters.AddWithValue("@total", Convert.ToInt32(textBoxOrderTotal.Text));
+                    da1.InsertCommand.Parameters.AddWithValue("@UID", this.UID);
+                    da1.InsertCommand.Parameters.AddWithValue("@RID", textBoxOrderRestaurant.Text);
+                    da1.InsertCommand.ExecuteNonQuery();
+
+                    MessageBox.Show("Order Added Successfully!");
+                    this.displayOrders();
+                    this.ClearCustomerTextboxData();
+                }
+                else
+                {
+                    MessageBox.Show("Please Select a Customer to add a new Order");
+                }
+
+            } catch (Exception exception)
+            {
+                MessageBox.Show(exception.Message);
+            } finally
+            {
+                connection.Close();
+            }
         }
 
         // Deletes a record from Orders and displays the new data
@@ -166,6 +216,14 @@ namespace Laboratory1
             textBoxCustomersLN.Text = selectedRow.Cells[2].Value.ToString();
             textBoxCustomersAddress.Text = selectedRow.Cells[3].Value.ToString();
             textBoxCustomersPhone.Text = selectedRow.Cells[4].Value.ToString();
+
+            try
+            {
+                this.UID = Convert.ToInt32(selectedRow.Cells[0].Value.ToString());
+            } catch (Exception exception)
+            {
+                MessageBox.Show(exception.Message);
+            }
         }
 
         private void populateOrderTextboxesFromIndex(int selectedIndex)
@@ -211,13 +269,11 @@ namespace Laboratory1
         // Function that displays all the orders
         private void displayOrders()
         {
-            //connection.Open();
             da1.SelectCommand = new SqlCommand("SELECT * FROM ORDR", connection);
             ds1.Clear();
             da1.Fill(ds1);
             dataGridView2.DataSource = ds1.Tables[0];
             forCustomerLbl.Text = "Orders";
-            //connection.Close();
         }
 
         private void dataGridView2_CellClick(object sender, DataGridViewCellEventArgs e)
@@ -253,6 +309,17 @@ namespace Laboratory1
             OID = 0;
         }
 
+        // Clears the data
+        private void ClearCustomerTextboxData()
+        {
+            textBoxCustomersID.Text = "";
+            textBoxCustomersFN.Text = "";
+            textBoxCustomersLN.Text = "";
+            textBoxCustomersAddress.Text = "";
+            textBoxCustomersPhone.Text = "";
+            UID = 0;
+        }
+
         // Helper, for the CheckBoxes. Allowing only one at a time.
         CheckBox lastChecked;
         private void chk_Click(object sender, EventArgs e)
@@ -261,5 +328,7 @@ namespace Laboratory1
             if (activeCheckBox != lastChecked && lastChecked != null) lastChecked.Checked = false;
             lastChecked = activeCheckBox.Checked ? activeCheckBox : null;
         }
+
+
     }
 }

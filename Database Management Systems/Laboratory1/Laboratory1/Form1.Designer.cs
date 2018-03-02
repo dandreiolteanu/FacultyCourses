@@ -41,7 +41,7 @@
             this.textBoxCustomersAddress = new System.Windows.Forms.TextBox();
             this.textBoxCustomersPhone = new System.Windows.Forms.TextBox();
             this.populateBtnOrders = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.addNewOrderBtn = new System.Windows.Forms.Button();
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.textBoxCustomersID = new System.Windows.Forms.TextBox();
@@ -184,14 +184,15 @@
             this.populateBtnOrders.UseVisualStyleBackColor = true;
             this.populateBtnOrders.Click += new System.EventHandler(this.populateBtnOrders_Click);
             // 
-            // button1
+            // addNewOrderBtn
             // 
-            this.button1.Location = new System.Drawing.Point(1104, 427);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(189, 51);
-            this.button1.TabIndex = 14;
-            this.button1.Text = "Add new Order";
-            this.button1.UseVisualStyleBackColor = true;
+            this.addNewOrderBtn.Location = new System.Drawing.Point(1104, 427);
+            this.addNewOrderBtn.Name = "addNewOrderBtn";
+            this.addNewOrderBtn.Size = new System.Drawing.Size(189, 51);
+            this.addNewOrderBtn.TabIndex = 14;
+            this.addNewOrderBtn.Text = "Add new Order";
+            this.addNewOrderBtn.UseVisualStyleBackColor = true;
+            this.addNewOrderBtn.Click += new System.EventHandler(this.addNewOrderBtn_Click);
             // 
             // label7
             // 
@@ -314,7 +315,6 @@
             this.checkBoxCreditCard.Text = "Credit Card";
             this.checkBoxCreditCard.UseVisualStyleBackColor = true;
             this.checkBoxCreditCard.Click += new System.EventHandler(this.chk_Click);
-
             // 
             // textBoxOrderOID
             // 
@@ -375,7 +375,7 @@
             this.Controls.Add(this.textBoxCustomersID);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.label7);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.addNewOrderBtn);
             this.Controls.Add(this.populateBtnOrders);
             this.Controls.Add(this.textBoxCustomersPhone);
             this.Controls.Add(this.textBoxCustomersAddress);
@@ -390,7 +390,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.dataGridView1);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Laboratory 1";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
             this.ResumeLayout(false);
@@ -412,7 +412,7 @@
         private System.Windows.Forms.TextBox textBoxCustomersAddress;
         private System.Windows.Forms.TextBox textBoxCustomersPhone;
         private System.Windows.Forms.Button populateBtnOrders;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button addNewOrderBtn;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.TextBox textBoxCustomersID;
