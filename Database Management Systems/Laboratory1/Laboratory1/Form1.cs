@@ -31,7 +31,69 @@ namespace Laboratory1
         {
             InitializeComponent();
             this.displayCustomers();
-       }
+        }
+
+        // 
+        //
+        //      THE DATA GRID FOR CUSTOMERS
+        //
+        //
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+            int selectedIndex = e.RowIndex;
+
+            // Need to check this for pressing the header and getting index out of range error.
+            if (e.RowIndex == -1) return;
+
+            this.populateCustomerTextboxesFromIndex(selectedIndex);
+            this.displayChildRecords(selectedIndex);
+            this.ClearOrderTextboxData();
+        }
+
+        private void dataGridView1_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            int selectedIndex = e.RowIndex;
+
+            // Need to check this for pressing the header and getting index out of range error.
+            if (e.RowIndex == -1) return;
+
+            this.populateCustomerTextboxesFromIndex(selectedIndex);
+            this.displayChildRecords(selectedIndex);
+            this.ClearOrderTextboxData();
+
+
+        }
+
+        //
+        //
+        //     THE DATA GRID FOR ORDERS
+        //
+        //
+        private void dataGridView2_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            int selectedIndex = e.RowIndex;
+
+            // Need to check this for pressing the header and getting index out of range error.
+            if (e.RowIndex == -1) return;
+
+            this.populateOrderTextboxesFromIndex(selectedIndex);
+        }
+
+        private void dataGridView2_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+            int selectedIndex = e.RowIndex;
+
+            // Need to check this for pressing the header and getting index out of range error.
+            if (e.RowIndex == -1) return;
+
+            this.populateOrderTextboxesFromIndex(selectedIndex);
+        }
+
+        // Populates with all the orders
+        private void populateBtnOrders_Click(object sender, EventArgs e)
+        {
+            this.displayOrders();
+        }
 
         // Adds a new order to a certain Customer
         private void addNewOrderBtn_Click(object sender, EventArgs e)
@@ -149,34 +211,6 @@ namespace Laboratory1
             }
         }
 
-
-
-        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-            int selectedIndex = e.RowIndex;
-
-            // Need to check this for pressing the header and getting index out of range error.
-            if (e.RowIndex == -1) return;
-
-            this.populateCustomerTextboxesFromIndex(selectedIndex);
-            this.displayChildRecords(selectedIndex);
-            this.ClearOrderTextboxData();
-        }
-
-        private void dataGridView1_CellClick(object sender, DataGridViewCellEventArgs e)
-        {
-            int selectedIndex = e.RowIndex;
-            
-            // Need to check this for pressing the header and getting index out of range error.
-            if (e.RowIndex == -1) return;
-
-            this.populateCustomerTextboxesFromIndex(selectedIndex);
-            this.displayChildRecords(selectedIndex);
-            this.ClearOrderTextboxData();
-
-
-        }
-
         // Displays all the parents records
         private void displayCustomers()
         {
@@ -190,21 +224,15 @@ namespace Laboratory1
         // Displays all the orders taken by a certain customer, by ID
         private void displayChildRecords(int forCustomerID)
         {
+            DataGridViewRow selectedRow = dataGridView1.Rows[forCustomerID];
             da1.SelectCommand = new SqlCommand("SELECT * FROM ORDR WHERE UID = @id", connection);
-            da1.SelectCommand.Parameters.AddWithValue("@id", getCustomerID(forCustomerID));
+            forCustomerLbl.Text = "Orders for " + selectedRow.Cells[1].Value.ToString() + " " + selectedRow.Cells[2].Value.ToString();
+            string id = selectedRow.Cells[0].Value.ToString();
+            da1.SelectCommand.Parameters.AddWithValue("@id", id);
             ds1.Clear();
             da1.Fill(ds1);
             dataGridView2.DataSource = ds1.Tables[0];
         }
-
-        // Returns the ID of the customer which was pressed
-        string getCustomerID(int forCustomerID)
-        {
-            DataGridViewRow selectedRow = dataGridView1.Rows[forCustomerID];
-            forCustomerLbl.Text = "Orders for " + selectedRow.Cells[1].Value.ToString() + " " + selectedRow.Cells[2].Value.ToString();
-            return selectedRow.Cells[0].Value.ToString();
-        }
-
 
         // Gets the data from a selected index and displays it in the textBoxes
         private void populateCustomerTextboxesFromIndex(int selectedIndex)
@@ -255,15 +283,9 @@ namespace Laboratory1
             }
             catch (Exception ex)
             {
-                new ApplicationException("Select a valid Row!");
+                MessageBox.Show(ex.Message);
             }
 
-        }
-
-        // Populates with all the orders
-        private void populateBtnOrders_Click(object sender, EventArgs e)
-        {
-            this.displayOrders();
         }
 
         // Function that displays all the orders
@@ -274,26 +296,6 @@ namespace Laboratory1
             da1.Fill(ds1);
             dataGridView2.DataSource = ds1.Tables[0];
             forCustomerLbl.Text = "Orders";
-        }
-
-        private void dataGridView2_CellClick(object sender, DataGridViewCellEventArgs e)
-        {
-            int selectedIndex = e.RowIndex;
-
-            // Need to check this for pressing the header and getting index out of range error.
-            if (e.RowIndex == -1) return;
-
-            this.populateOrderTextboxesFromIndex(selectedIndex);
-        }
-
-        private void dataGridView2_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-            int selectedIndex = e.RowIndex;
-
-            // Need to check this for pressing the header and getting index out of range error.
-            if (e.RowIndex == -1) return;
-
-            this.populateOrderTextboxesFromIndex(selectedIndex);
         }
 
         // Clears the data
