@@ -1,80 +1,86 @@
+/* Task 1 with divs */
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  width: 100%;
+  height: 80vh;
+  font-family: -apple-system, BlinkMacSystemFont;
+}
+
+.grid-itemTopLeft {
+  background-color: rgba(255, 255, 255, 0.8);
+  border-top: 2px solid #0000e5;
+  border-left: 2px solid #0000e5;
+  font-size: 30px;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  font-family: -apple-system, BlinkMacSystemFont;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.grid-itemTopRight {
+  background-color: rgba(255, 255, 255, 0.8);
+  border-top: 2px solid #0000e5;
+  border-right: 2px solid #0000e5;
+  font-size: 30px;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  font-family: -apple-system, BlinkMacSystemFont;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.grid-itemBottomLeft {
+  background-color: rgba(255, 255, 255, 0.8);
+  border-bottom: 2px solid #0000e5;
+  border-left: 2px solid #0000e5;
+  font-size: 30px;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  font-family: -apple-system, BlinkMacSystemFont;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.grid-itemBottomRight {
+  background-color: rgba(255, 255, 255, 0.8);
+  border-bottom: 2px solid #0000e5;
+  border-right: 2px solid #0000e5;
+  font-size: 30px;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  font-family: -apple-system, BlinkMacSystemFont;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+/* Task 2 with hover */
+
 .divWithHover {
-    width: 100%;
-    height: 5px;
-    background: linear-gradient(to top, #8a1dd9 0%, #661ED9 100%);
-    transition: height 1s;
-    -webkit-transition: height 0.7s;
+  width: 100%;
+  height: 8px;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  background: linear-gradient(to top, #8a1dd9 0%, #661ED9 100%);
+  transition: height 0.7s;
+  -webkit-transition: height 0.7s;
 }
 
 .divWithHover:hover {
-   
-	height: 75%;
+  height: 75%;
 }
-
-.grid-container {
-    display: grid;
-    grid-template-columns: auto auto;
-    width: 100%;
-    height: 80vh;
-    font-family: -apple-system, BlinkMacSystemFont;
-  }
-
-  .grid-itemTopLeft {
-    background-color: rgba(255, 255, 255, 0.8);
-    border-top: 2px solid #0000e5;
-    border-left: 2px solid #0000e5;
-    font-size: 30px;
-    text-align: center;
-    width: 100%;
-    height: 100%;
-    font-family: -apple-system, BlinkMacSystemFont;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-  }
-
-  .grid-itemTopRight {
-    background-color: rgba(255, 255, 255, 0.8);
-    border-top: 2px solid #0000e5;
-    border-right: 2px solid #0000e5;
-    font-size: 30px;
-    text-align: center;
-    width: 100%;
-    height: 100%;
-    font-family: -apple-system, BlinkMacSystemFont;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-  }
-
-  .grid-itemBottomLeft {
-    background-color: rgba(255, 255, 255, 0.8);
-    border-bottom: 2px solid #0000e5;
-    border-left: 2px solid #0000e5;
-    font-size: 30px;
-    text-align: center;
-    width: 100%;
-    height: 100%;
-    font-family: -apple-system, BlinkMacSystemFont;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-  }
-
-  .grid-itemBottomRight {
-    background-color: rgba(255, 255, 255, 0.8);
-    border-bottom: 2px solid #0000e5;
-    border-right: 2px solid #0000e5;
-    font-size: 30px;
-    text-align: center;
-    width: 100%;
-    height: 100%;
-    font-family: -apple-system, BlinkMacSystemFont;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-  }
