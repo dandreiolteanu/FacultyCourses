@@ -1,5 +1,9 @@
 /* Task 1 with divs */
 
+h1 {
+  font-family: -apple-system, BlinkMacSystemFont;
+}
+
 .grid-container {
   display: grid;
   grid-template-columns: auto auto;
@@ -9,9 +13,9 @@
 }
 
 .grid-itemTopLeft {
-  background-color: rgba(255, 255, 255, 0.8);
-  border-top: 2px solid #0000e5;
-  border-left: 2px solid #0000e5;
+  background-color: rgb(240, 240, 240);
+  border-top: 2px solid #000000;
+  border-left: 2px solid #000000;
   font-size: 30px;
   text-align: center;
   width: 100%;
@@ -23,9 +27,9 @@
 }
 
 .grid-itemTopRight {
-  background-color: rgba(255, 255, 255, 0.8);
-  border-top: 2px solid #0000e5;
-  border-right: 2px solid #0000e5;
+  background-color: rgb(209, 209, 209);
+  border-top: 2px solid #000000;
+  border-right: 2px solid #000000;
   font-size: 30px;
   text-align: center;
   width: 100%;
@@ -37,9 +41,9 @@
 }
 
 .grid-itemBottomLeft {
-  background-color: rgba(255, 255, 255, 0.8);
-  border-bottom: 2px solid #0000e5;
-  border-left: 2px solid #0000e5;
+  background-color: rgb(151, 151, 151);
+  border-bottom: 2px solid #000000;
+  border-left: 2px solid #000000;
   font-size: 30px;
   text-align: center;
   width: 100%;
@@ -51,9 +55,9 @@
 }
 
 .grid-itemBottomRight {
-  background-color: rgba(255, 255, 255, 0.8);
-  border-bottom: 2px solid #0000e5;
-  border-right: 2px solid #0000e5;
+  background-color: rgb(116, 116, 116);
+  border-bottom: 2px solid #000000;
+  border-right: 2px solid #000000;
   font-size: 30px;
   text-align: center;
   width: 100%;
