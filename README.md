@@ -44,6 +44,7 @@ Or open terminal and type
 git clone https://github.com/dandreiolteanu/FacultyCourses.git
 ```
 
+I only post what I really liked doing at the University 🤙🏼
 
 ## Author
 
