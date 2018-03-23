@@ -16,6 +16,10 @@ body {
     position: relative;
 }
 
+.top-menu :hover {
+    text-decoration: underline;
+}
+
 .top-menu a {
     color: white;
     text-decoration: none;
