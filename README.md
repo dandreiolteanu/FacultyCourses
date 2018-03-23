@@ -15,6 +15,11 @@ Repository for projects that I've worked on at UBB Computer Science, Cluj-Napoca
 * [Computer Networks](https://github.com/dandreiolteanu/FacultyCourses/tree/master/Computer%20Networks) - ComputerNetworks files + tests
 * [Database](https://github.com/dandreiolteanu/FacultyCourses/tree/master/Database) - SQL Databse files
 
+## 4th Semester
+* [Web Programming](https://github.com/dandreiolteanu/FacultyCourses/tree/master/WebProgramming)
+* MPP - Team Private Repo
+* [DMS](https://github.com/dandreiolteanu/FacultyCourses/tree/master/Database%20Management%20Systems/Laboratory1) - Database Management Systems
+
 ### Installing
 
 ```
@@ -39,6 +44,7 @@ Or open terminal and type
 git clone https://github.com/dandreiolteanu/FacultyCourses.git
 ```
 
+I only post what I really liked doing at the University 🤙🏼
 
 ## Author
 
