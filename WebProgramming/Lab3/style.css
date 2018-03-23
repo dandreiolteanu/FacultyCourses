@@ -1,9 +1,9 @@
 body {
     margin: 0;
-    font-family: 'Open Sans', sans-serif;
   }
 
 .top-menu {
+    font-family: 'Open Sans', sans-serif;
     font-size: 12.5px;
     font-weight: 100;
     color: white;
@@ -27,12 +27,16 @@ body {
     padding-right: 2.3%;
 }
 
+.leftPadding {
+    padding-left: 35px;
+}
+
 .smallIcon {
-    padding-left: 16px;
-    padding-right: 4px;
+    left: 16px;
     width: 13px;
     height: 14px;
     vertical-align: middle;
+    position: absolute;
 }
 
 .flagIcon {
@@ -40,4 +44,29 @@ body {
     height: 13px;
     right: 16px;
     position: absolute;
+}
+
+.navbar-custom {
+    background-color: white;
+}
+
+.navbar-brand {
+    position:relative;
+    padding-left:5%;
+}
+
+.navbar {
+    position: relative;
+    height: 10vh;
+}
+
+.SearchIcon {
+    color:#ffffff;
+}
+.SearchButton {
+    background-color: #155fff;
+    border-radius:1px;
+}
+.SearchButton:hover {
+    background-color: #0755fd;
 }
