@@ -5,12 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Yahoo</title>
+    <title>Yahoo Clone</title>
 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="style.css">
 
 </head>
@@ -29,10 +28,25 @@
 
     </div>
 
-    <nav class="navbar navbar-custom navbar-expand-sm bg-light navbar-light">
+    <nav class="navbar navbar-custom">
         <a class="navbar-brand" href="#">
-            <img src="icn_brand.png" alt="logo" style="width:190px;">
+            <img src="icn_brand.png" alt="logo" class="logo">
         </a>
+
+        <div class="pull-left">
+            <form class="navbar-form" role="search">
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="" name="srch-term" id="srch-term">
+                    <div class="input-group-btn">
+                        <button class="btn btn-default search-button" type="submit">
+                            <i class="glyphicon glyphicon-search search-icon"></i>
+                        </button>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+
 
     </nav>
 
