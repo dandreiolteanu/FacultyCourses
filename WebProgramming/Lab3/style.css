@@ -2,7 +2,7 @@
 
 body {
   margin: 0;
-  height: 200vh;
+  width: 100%;
 }
 
 .top-menu {
@@ -42,6 +42,15 @@ body {
   position: absolute;
 }
 
+.mediumIcon {
+  left: 16px;
+  width: 40px;
+  height: auto;
+  vertical-align: middle;
+  position: absolute;
+  color: #0755fd;
+}
+
 .flagIcon {
   width: 20px;
   height: 13px;
@@ -54,7 +63,7 @@ body {
 }
 
 .navbar-custom {
-    background-color: white;
+  background-color: white;
 }
 
 .navbar-brand {
@@ -88,25 +97,24 @@ body {
 }
 
 .input-group {
-  width: 50vw;
+  width: 55vw;
 }
 
 .form-control {
-  padding-left: 10vw;
   border-color: #286cff;
   border-radius: 1px;
   height: 45px;
 }
 
 .div-authentication {
-  width: 10vw;
+  width: 9%;
   padding-top: 20px;
   text-align: center;
   display: inline-block;
 }
 
 .div-mail {
-  width: 10vw;
+  width: 9%;
   padding-top: 18px;
   text-align: center;
   display: inline-block;
@@ -155,21 +163,168 @@ body {
   padding-left: 5vw;
   background-color: white;
   height: 30px;
-  
 }
 
 .img-fluid {
-    max-width: 100%;
-    height: auto;
-  }
-  
+  max-width: 100%;
+  height: auto;
+}
+
 .sticky-under-nav a {
-    color: #5500d5;
-    font-weight: bold;
-    font-size: 14px;
-    text-align: center;
+  color: #5500d5;
+  font-weight: bold;
+  font-size: 14px;
+  text-align: center;
 }
 
 .leftPaddingMinus {
-    padding-left: 30px; 
+  padding-left: 30px;
+}
+
+.feed-wrapper {
+  padding-top: 1vh;
+  padding-right: 3vh;
+  padding-left: 3vh;
+}
+
+.weather-column {
+  height: 40vh;
+}
+
+.feed-column {
+  height: 125vh;
+}
+
+.topPadding {
+  padding-top: 2vh;
+}
+
+.weather-wrapper {
+  font-weight: bold;
+  font-size: 13px;
+  text-align: center;
+}
+
+.weatherIcon-cloud {
+  color: #5f5f5f;
+  font-size: 30px;
+  text-align: center;
+}
+
+.weatherIcon-sun {
+  color: #f1de2e;
+  font-size: 30px;
+  text-align: center;
+}
+
+.weatherIcon-rain {
+  color: #6dd1ff;
+  font-size: 30px;
+  text-align: center;
+}
+
+.feelsLike {
+  font-weight: bold;
+  color: black;
+}
+
+.minWeather {
+  font-weight: bold;
+  color: #838383;
+}
+
+.termsAnd {
+  text-align: center;
+  padding-top: 50px;
+  font-size: 13px;
+  font-weight: 300;
+  word-spacing: 3px;
+}
+
+.termsAnd a {
+  text-decoration: none;
+  color: #999999;
+}
+
+.termsAnd a:hover {
+  color: #0755fd;
+}
+
+.terms {
+  text-align: center;
+  font-size: 13px;
+  font-weight: 300;
+}
+
+.terms a {
+  text-decoration: none;
+  color: #999999;
+}
+
+.terms a:hover {
+  color: #0755fd;
+}
+
+.feed-columns {
+  height: 20vh;
+}
+
+.feed-image {
+  height: auto;
+  width: 25vh;
+  padding-top: 4vh;
+}
+
+.feed-description {
+  padding-top: 4vh;
+  background-color: white;
+}
+
+.feed-description a {
+  text-decoration: none;
+  font-size: 12px;
+  color: #999999;
+}
+
+.feed-description-overview h1 {
+  color: #2c174d;
+  font-size: 2vh;
+  font-weight: bold;
+}
+
+.feed-description-overview p {
+  font-size: 1.5vh;
+  font-weight: normal;
+}
+
+.feed-share-bar {
+  padding-top: 4vh;
+  height: 30%;
+}
+
+.comment-icon {
+  font-size: 20px;
+  color: #c0c0c0
+}
+
+.comment-icon :hover {
+  color: #286cff;
+}
+
+.heart-icon {
+  font-size: 20px;
+  color: #c0c0c0
+}
+
+.heart-icon :hover {
+  color: #f71c14;
+}
+
+.share-icon {
+  font-size: 20px;
+  color: #c0c0c0
+}
+
+.share-icon :hover {
+  color: #286cff;
 }
