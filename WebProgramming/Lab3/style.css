@@ -292,6 +292,10 @@ body {
   font-weight: bold;
 }
 
+.feed-description-overview h1:hover {
+  color: #286cff;
+}
+
 .feed-description-overview p {
   font-size: 1.5vh;
   font-weight: normal;
@@ -304,7 +308,7 @@ body {
 
 .comment-icon {
   font-size: 20px;
-  color: #c0c0c0
+  color: #c0c0c0;
 }
 
 .comment-icon :hover {
@@ -313,7 +317,7 @@ body {
 
 .heart-icon {
   font-size: 20px;
-  color: #c0c0c0
+  color: #c0c0c0;
 }
 
 .heart-icon :hover {
@@ -322,7 +326,7 @@ body {
 
 .share-icon {
   font-size: 20px;
-  color: #c0c0c0
+  color: #c0c0c0;
 }
 
 .share-icon :hover {
