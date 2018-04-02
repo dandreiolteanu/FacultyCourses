@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="file.xsl"?>
+<entries>
+  <entry>
+    <name>Spaghetti Carbonara</name>
+    <photo>http://i.imgur.com/ZXHQ5qi.jpg</photo>
+    <ingretients>bacon cheese spaghetti</ingretients>
+    <preparation>boil and eat</preparation>
+  </entry>
+</entries>
