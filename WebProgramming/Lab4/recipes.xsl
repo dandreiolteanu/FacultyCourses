@@ -28,7 +28,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
               <xsl:value-of select="ingretients"/>
             </td>
             <td class="preparation-data">
-              <xsl:value-of select="preparation"/>
+             <b> <xsl:value-of select="preparation"/> </b>
             </td>
           </tr>
         </xsl:for-each>

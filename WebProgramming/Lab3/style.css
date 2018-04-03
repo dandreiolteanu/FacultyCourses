@@ -288,7 +288,7 @@ body {
 
 .feed-description-overview h1 {
   color: #2c174d;
-  font-size: 2vh;
+  font-size: 2.4vh;
   font-weight: bold;
 }
 
@@ -299,6 +299,15 @@ body {
 .feed-description-overview p {
   font-size: 1.5vh;
   font-weight: normal;
+}
+
+.feed-description-overview a {
+  color: #2c174d;
+  text-decoration: none;
+}
+
+.feed-description-overview a:hover {
+  color: #286cff;
 }
 
 .feed-share-bar {
