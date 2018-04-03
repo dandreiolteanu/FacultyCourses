@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+<xsl:stylesheet version="1.0"
+xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+
 <xsl:template match="/">
   <html>
-    <head>
-      <link rel="stylesheet" type="text/css" href="display_style.css"/>
-    </head>
-    <body>
-      <table class="main-section" border="1">
+  <head>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+</link> 
+</head>
+  <body>
+      <table class="main-section table table-hover" border="1">
         <tr class="header-row">
           <th>Name</th>
           <th>Image</th>

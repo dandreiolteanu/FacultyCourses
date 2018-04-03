@@ -3,8 +3,26 @@
 <entries>
   <entry>
     <name>Spaghetti Carbonara</name>
-    <photo>http://i.imgur.com/ZXHQ5qi.jpg</photo>
+    <photo>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNLNzveFKwhHMohT-VgzOwB65V0WxZRkYYeyCBimWECXX1MvHqJA</photo>
     <ingretients>bacon cheese spaghetti</ingretients>
+    <preparation>boil and eat</preparation>
+  </entry>
+    <entry>
+    <name>Spaghetti All'amatriciana</name>
+    <photo>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNLNzveFKwhHMohT-VgzOwB65V0WxZRkYYeyCBimWECXX1MvHqJA</photo>
+    <ingretients>bacon tomato sauce spaghetti</ingretients>
+    <preparation>boil and eat</preparation>
+  </entry>
+    <entry>
+    <name>Spaghetti Frutti Di Mare</name>
+    <photo>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNLNzveFKwhHMohT-VgzOwB65V0WxZRkYYeyCBimWECXX1MvHqJA</photo>
+    <ingretients>Frutti Di Mare tomato sauce spaghetti</ingretients>
+    <preparation>boil and eat</preparation>
+  </entry>
+    <entry>
+    <name>Spaghetti Quatro Formagi</name>
+    <photo>http://img1.amando.it/imagesdyn/articoli/123/80/400/119274.jpg</photo>
+    <ingretients>cheese cheese cheese cheese spaghetti</ingretients>
     <preparation>boil and eat</preparation>
   </entry>
 </entries>
