@@ -1,6 +1,15 @@
+.wrapper-images {
+  padding-top: 30px;
+}
+
+.col-sm-1 {
+  text-align: center;
+}
+
 .small-images {
   height: auto;
   width: 100px;
+  display: inline-block;
 }
 
 .big-image {
@@ -11,10 +20,25 @@
   display: inline-block;
   height: 40vh;
   width: auto;
+  padding-top: 30px;
+}
+
+.big-image h3 {
+  padding-top: 20px;
 }
 
 h1 {
   font-family: -apple-system, BlinkMacSystemFont;
   text-align: center;
   padding-top: 3vh;
+}
+
+.footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #ececec;
+  text-align: center;
 }
