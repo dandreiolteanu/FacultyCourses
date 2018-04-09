@@ -1,0 +1,13 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont;
+}
+
+.images-area {
+    height: 80vh;
+    width: auto;
+}
+
+.theImg {
+    width: 100px;
+    height: 100px;
+}
