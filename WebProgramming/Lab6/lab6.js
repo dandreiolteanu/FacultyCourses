@@ -49,6 +49,7 @@ function spawnImage() {
   );
 
   image.click(function() {
+    image.remove()
     score = score + 1;
     $("#scoreLabel").text("Current score -> " + score);
     if (score == 10) {
