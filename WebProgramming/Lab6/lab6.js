@@ -20,19 +20,14 @@ function spawnImage() {
   var gameScreenWidth = $(".images-area").width();
   var gameScreenHeight = $(".images-area").height();
 
-  console.log(gameScreenWidth);
-  console.log(gameScreenHeight);
-
   var randWidth = Math.floor(Math.random() * gameScreenWidth);
   var randHeight = Math.floor(Math.random() * gameScreenHeight);
-  console.log(randWidth);
-  console.log(randHeight);
 
   var image = $(document.createElement("img"));
   image.addClass("theImg");
   image.attr(
     "src",
-    "http://www.istyle.eu/media/catalog/product/cache/10/image/9df78eab33525d08d6e5fb8d27136e95/i/p/iphonex-spgry-pureangles_gb-en-screen_1.jpeg"
+    "iphones.png"
   );
   image.css({
     top: randHeight,
