@@ -1,0 +1,10 @@
+E:\Programe\Visual Studio\Programe\SGBD\SGBD\SGBD\bin\Debug\SGBD.exe.config
+E:\Programe\Visual Studio\Programe\SGBD\SGBD\SGBD\bin\Debug\SGBD.exe
+E:\Programe\Visual Studio\Programe\SGBD\SGBD\SGBD\bin\Debug\SGBD.pdb
+E:\Programe\Visual Studio\Programe\SGBD\SGBD\SGBD\obj\Debug\SGBD.csprojResolveAssemblyReference.cache
+E:\Programe\Visual Studio\Programe\SGBD\SGBD\SGBD\obj\Debug\SGBD.Form1.resources
+E:\Programe\Visual Studio\Programe\SGBD\SGBD\SGBD\obj\Debug\SGBD.Properties.Resources.resources
+E:\Programe\Visual Studio\Programe\SGBD\SGBD\SGBD\obj\Debug\SGBD.csproj.GenerateResource.Cache
+E:\Programe\Visual Studio\Programe\SGBD\SGBD\SGBD\obj\Debug\SGBD.exe
+E:\Programe\Visual Studio\Programe\SGBD\SGBD\SGBD\obj\Debug\SGBD.pdb
+E:\Programe\Visual Studio\Programe\SGBD\SGBD\SGBD\obj\Debug\SGBD.Form2.resources
